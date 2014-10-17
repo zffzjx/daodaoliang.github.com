@@ -22,12 +22,12 @@ meta:
         url:  daodaoliang.github.io                   #博客地址
         description: slow walker                      #二级标题
         speak: 苦行僧                 	              #标题后面的文字
-        title: Pastqing Blog                          #博客标题
+        title: Daodaoliang Blog                       #博客标题
         rss: /page/rss.xml                            #RSS页面
         baidukey: Nothing                             #百度站长验证的key
     author:
         name: Daodaoliang                             #作者名称
         github: https://github.com/daodaoliang        #github地址
-        qq: 88341189                                  #微博地址
+        weixin: /res/img/icon.png                     #微博地址
         email: daodoaliang@yeah.net                   #邮箱
         icon: /res/img/icon.png                       #博客头像
