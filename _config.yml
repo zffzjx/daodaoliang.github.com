@@ -3,6 +3,12 @@ highlighter: pygments
 permalink: blog/:year/:month/:day/:title.html
 paginate: 6
 paginate_path: page/:num
+encoding: "utf-8"
+future: true
+lsi: true
+safe: false
+
+
 
 blog:
     name:Daodaoliang Blog                                # 博客名称
