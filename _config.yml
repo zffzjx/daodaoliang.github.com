@@ -28,6 +28,6 @@ meta:
     author:
         name: Daodaoliang                             #作者名称
         github: https://github.com/daodaoliang        #github地址
-        weixin: /res/img/icon.png                     #微博地址
+        connectMe: daodaoliang@yeah.net                 #邮件地址
         email: daodoaliang@yeah.net                   #邮箱
         icon: /res/img/icon.png                       #博客头像
