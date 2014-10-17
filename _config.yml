@@ -22,7 +22,7 @@ meta:
         url:  daodaoliang.github.io                   #博客地址
         description: slow walker                      #二级标题
         speak: 苦行僧                 	              #标题后面的文字
-        title: Daodaoliang Blog                       #博客标题
+        title: 徐景亮的博客                           #博客标题
         rss: /page/rss.xml                            #RSS页面
         baidukey: Nothing                             #百度站长验证的key
     author:
