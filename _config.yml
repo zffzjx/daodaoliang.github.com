@@ -1,0 +1,33 @@
+#baseurl: /MyBlog
+markdown: kramdown
+#markdown: rdiscount #kramdown redcarpet
+
+kramdown:
+  extensions: [  "autolink", ]
+markdown_ext:  markdown,mkd,mkdn,md
+
+highlighter: pygments
+
+permalink: /blog/:year/:month/:day/:title.html
+paginate: 5
+paginate_path: "page/:num"
+encoding: "utf-8"
+future: true
+lsi: true
+safe: false
+
+meta:
+    blog:
+        name: Daodaoliang Blog                        #博客名称
+        url:  daodaoliang.github.io                           #博客地址
+        description: Just Do Do Do it.          #二级标题
+        speak: 你若是天才，我便是疯子          #标题后面的文字
+        title: Pastqing Blog                       #博客标题
+        rss: /page/rss.xml                      #RSS页面
+        baidukey: PLCtR5jCNe                    #百度站长验证的key
+    author:
+        name: Daodaoliang                             #作者名称
+        github: https://github.com/daodaoliang        #github地址
+        qq: 88341189           #微博地址
+        email: daodoaliang@yeah.net               #邮箱
+        icon: /res/img/icon.png                 #博客头像

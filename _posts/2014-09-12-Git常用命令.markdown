@@ -1,0 +1,83 @@
+---
+layout: post
+title:  git常用命令
+category: Git
+date: 2014-09-12
+---
+
+
+
+
+# Git常用命令
+
+## 安装git ##
+{% highlight java %}
+    sudo apt-get install git
+{% endhighlight %}
+
+ - git config命令的--global参数，用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址
+
+{% highlight java %}
+git config --global user.name "Your name"
+git config --global user.email "email@XX.com"
+{% endhighlight %}
+<!-- more -->
+## 创建版本库repository ##
+ - 首先找一个地方，创建一个空目录,然后使用git init 命令
+> **git init**
+
+ - 将文件放到建好的仓库目录下使用如下命令
+> 用add将文件添加到仓库
+**git add filename** 
+用commit告诉git, 把文件提交到仓库
+**git commit -m "input something "**
+
+git commit命令执行成功后会告诉你，文件被改动的情况。commit可以一次提交很多文件
+
+## 查看仓库历史 ##
+ - git status命令可以让我们时刻掌握仓库当前的状态
+> git status
+
+ - git diff filename 可以查看该文件时如何被修改的
+ 
+## 版本回退 ##
+ - 用**git log** 命令查看历史记录
+ - **git reset --hard +版本号
+ 其中**HEAD**表示当前版本，HEAD^表示上一个版本，HEAD^^表示上上一个版本 也可写成HEAD~100上一百个版本。版本号不用全写，写前几位就行。git会自动帮你找到
+ - 用git reflog 可以查看你每一次的操作记录
+ 
+## 撤销修改 ##
+ - 使用**git checkout --xxx.txt**
+ - 命令git checkout -- readme.txt意思就是，把readme.txt文件在工作区的修改全部撤销，这里有两种情况：
+一种是readme.txt自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态；
+一种是readme.txt已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。
+**总之，就是让这个文件回到最近一次git commit或git add时的状态**
+ - 使用git reset HEAD +filename可以把暂存区的修改撤销掉，重新放回工作区。**git reset**命令既可以回退版本，也可以把暂存区的修改撤销掉
+ 
+## 删除文件 ##
+ - ** 使用git rm filename**删除文件
+ - 若删错了，可用 **git checkout -- filename**进行恢复l
+ 
+## 远程仓库 ##
+ - 创建SSH key
+
+{% highlight java %}
+ssh-keygen -t rsa -C "email@xx.com"
+{% endhighlight %}
+
+如果一切顺利的话，可以在用户主目录里找到.ssh目录，里面有id_rsa和id_rsa.pub两个文件，这两个就是SSH Key的秘钥对，id_rsa是私钥，不能泄露出去，id_rsa.pub是公钥，可以放心地告诉任何人 
+
+ - 登陆GitHub，打开“Account settings”，“SSH Keys”页面：
+然后，点“Add SSH Key”，填上任意Title，在Key文本框里粘贴id_rsa.pub文件的内容
+
+ - 将本地仓库推送到GitHub仓库
+> git remote add origin git@github.com:pastqing/wangdao.git
+git push -u origin mastercd 
+
+由于远程库是空的，我们第一次推送master分支时，加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令
+**此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改**
+
+## 从远程仓库克隆 ##
+{% highlight java %}
+ git clone git@github.com:pastqing/wangdao.git
+{% endhighlight %}
