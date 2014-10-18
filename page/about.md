@@ -16,7 +16,7 @@ date: 2014-10-18
 |<i class="fa fa-home"></i> 籍贯:|山东省临沂市| <i class="fa fa-phone"></i> 手机:|暂时不对外公布|
 |<i class="fa fa-envelope"></i> 电子邮箱:| `88341189@qq.com` 或者 `daodaoliang@yeah.net` |<i class="fa fa-camera-retro"></i> QQ:|`88341189`|
 
-##<i class="fa fa-circlr-thin"></i>自我评价
+<i class="fa fa-circlr-thin"></i> ##自我评价
 
 一年学校研究所的C++研发经验，两年的Qt开发经验，我热爱Linux，热爱C++，热爱Qt，热爱编程。
 
