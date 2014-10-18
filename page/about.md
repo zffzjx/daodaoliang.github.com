@@ -1,6 +1,7 @@
 ---
 layout: life
 title: 关于刀刀亮
+date: 2014-10-18
 ---
 
 #个人简历
