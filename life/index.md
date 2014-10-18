@@ -1,6 +1,6 @@
 ---
-layout= life
-title= 生活轨迹
+layou t= life
+title = 生活轨迹
 ---
 
 #这里是我的生活轨迹记录
