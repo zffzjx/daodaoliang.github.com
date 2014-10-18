@@ -11,19 +11,19 @@ safe: false
 
 
 blog:
-    name:Daodaoliang Blog                                # 博客名称
-    description:I am daodaoliang who are you?            # 博客描述
-    title:徐景亮的博客                                    # 网页标题
-    url:daodaoliang.github.io                            # 博客地址
+    name: Daodaoliang Blog                                # 博客名称
+    description: I am daodaoliang who are you?            # 博客描述
+    title: 徐景亮的博客                                    # 网页标题
+    url: daodaoliang.github.io                            # 博客地址
     duoshuo:                                             # 多说ID
     tongji:                                              # 百度统计ID
     qiniu:                                               # 七牛云地址
 author:
-    name:徐景亮                                          # 作者名称
-    email:daodaoliang@yeah.net                           # 邮箱地址
+    name: 徐景亮                                          # 作者名称
+    email: daodaoliang@yeah.net                           # 邮箱地址
     weibo:                                               # 微博地址
-    github:https://github.com/daodaoliang                # GitHub地址
-    logo:/res/img/icon.jpg                               # logo地址
+    github: https://github.com/daodaoliang                # GitHub地址
+    logo: /res/img/psb.jpg                               # logo地址
     douban:
         name:                                            # 豆瓣地址名称
         key:                                             # 豆瓣API Key
