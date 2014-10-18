@@ -1,6 +1,6 @@
 ---
 layout: life
-title: 个人简历
+title: 关于刀刀亮
 ---
 
 #个人简历
