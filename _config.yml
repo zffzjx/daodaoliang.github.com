@@ -21,7 +21,7 @@ blog:
 author:
     name: 徐景亮                                                       # 作者名称
     email: daodaoliang@yeah.net                  # 邮箱地址
-    weibo:                                                                     # 微博地址
+    weibo: http://weibo.com/u/5336437516 # 微博地址
     github: https://github.com/daodaoliang               # GitHub地址
     logo: /res/img/psb.jpg                                  # logo地址
     douban:
