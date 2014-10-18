@@ -37,7 +37,7 @@ date: 2014-10-18
 
 ##<i class="fa fa-circlr-thin"></i>项目经历
 
-* <i class="fa fa-dot-circle-o"></i>###2013/4 –2013/10：广州省电子不停车收费系统
+* ###<i class="fa fa-dot-circle-o"></i>2013/4 –2013/10：广州省电子不停车收费系统
 
 >
 * 软件环境：`windows`
