@@ -1,5 +1,5 @@
 ---
-layou t= life
+layout = life
 title = 生活轨迹
 ---
 
