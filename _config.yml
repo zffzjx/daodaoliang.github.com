@@ -15,7 +15,7 @@ blog:
     description: 一个努力想成功的loser # 博客描述
     title: 徐景亮的博客 # 网页标题
     url: daodaoliang.github.io # 博客地址
-    duoshuo: 刀刀亮 # 多说ID
+    duoshuo: daodaoliang # 多说ID
     tongji: daodaoliang # 百度统计ID
     qiniu: # 七牛云地址
 author:
