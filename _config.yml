@@ -16,7 +16,7 @@ blog:
     title: 徐景亮的博客                                           # 网页标题
     url: daodaoliang.github.io                           # 博客地址
     duoshuo:                                                                # 多说ID
-    tongji:                                                                      # 百度统计ID
+    tongji: daodaoliang# 百度统计ID
     qiniu:                                                                        # 七牛云地址
 author:
     name: 徐景亮                                                       # 作者名称
