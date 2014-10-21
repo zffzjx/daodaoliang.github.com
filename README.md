@@ -1,20 +1,6 @@
 ## 简介
 
-这是一款Jekyll博客主题，叫做Jekyll Light。这是我花了两天时间才重新做好的主题。没有用到任何CSS框架，简洁美观。  
-PS: 应该说我不会用CSS框架。。。
-
-### 关于主题
-* 支持多说评论框
-* 支持百度统计
-* 支持FancyBox图片盒子
-* 支持MathJax数学公式
-* NProgress进度条
-* 小火箭返回顶部动画
-* 时间轴样式的归档页面
-* 简版页面(渐变特效)
-* 响应式布局
-* 相信用WebKit内核的浏览器浏览，效果会有加成的...
-
+这是一款Jekyll博客主题，基础模板采用的是该**Source: [GitHub](https://github.com/pexcn/Jekyll-Light)**下的模板(感谢作者分享),里面我也做了一些个人喜好的修改，若是你喜欢该模板，请在下载后清除我的博文和我的配置信息，谢谢。PS：Enjoy it :）
 
 ## 使用
 
@@ -79,22 +65,6 @@ _posts文件夹下的markdown文件的layout项改为`post`，使用简版页面
 ### 生成静态博客
 把你的博客推送到GitHub或者其它支持Jekyll的代码托管网站就可以了。  
 具体可以到[Jekyll官网](http://jekyllrb.com/)或[GitHub Pages](https://pages.github.com/)查看详细教程。
-
-
-## 下载
-
-**Download: [Jekyll Light](https://github.com/pexcn/Jekyll-Light/releases)**
-
-**Source: [GitHub](https://github.com/pexcn/Jekyll-Light)**
-
-**DEMO: [Pexcn Blog](http://pexcn.tk)**
-
-
-## 截图
-
-![01](https://raw.githubusercontent.com/pexcn/Jekyll-Light/dev/README/01.png)
-![02](https://raw.githubusercontent.com/pexcn/Jekyll-Light/dev/README/02.png)
-![03](https://raw.githubusercontent.com/pexcn/Jekyll-Light/dev/README/03.png)
 
 
 ## 许可证
