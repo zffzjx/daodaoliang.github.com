@@ -166,9 +166,10 @@ date: 2014-10-18
 
 ******
 
-##[![/res/img/top.png](/res/img/top.png)][3]
+##[![/res/img/icon_hand-o-right.png](/res/img/top.png)][3] [点我回首页][4]
 
 ******
 [1]:http://pan.baidu.com/s/1i3uvQWP
 [2]:/res/download/徐景亮-简历.doc
 [3]:http://daodaoliang.github.io/
+[4]:http://daodaoliang.github.io/
