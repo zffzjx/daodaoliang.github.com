@@ -9,9 +9,7 @@ date: 2014-10-18
 
 ******
 
-  <i class=" fa fa-cloud-download"></i> [简历电子版-下载地址1][1]
-
- <i class="fa fa-cloud-download"></i> [简历电子版-下载地址2][2]
+ <i class="fa fa-cloud-download"></i> [简历电子版-下载地址][2]
 
 ******
 
@@ -166,5 +164,11 @@ date: 2014-10-18
 |2010/3|优秀学生干部|系级|
 |2009/6|学校综合奖学金| 二等|
 
+******
+
+##[![/res/img/top.png](/res/img/top.png)][3]
+
+******
 [1]:http://pan.baidu.com/s/1i3uvQWP
 [2]:/res/download/徐景亮-简历.doc
+[3]:http://daodaoliang.github.io/
