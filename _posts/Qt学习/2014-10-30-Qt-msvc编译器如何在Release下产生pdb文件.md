@@ -1,6 +1,6 @@
 ---
 layout : life
-title: QT在MSVC编辑器环境下在release版本产生pdb文件
+title: QT在release版本产生pdb文件
 category : Qt学习
 duoshuo: true
 date : 2014-10-30
