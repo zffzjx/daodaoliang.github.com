@@ -37,6 +37,7 @@ date : 2014-10-30
 * 方案2 修改程序的工程文件 ```*.pro``` ，增加如下：
  *
   *
+  
 ```sh
         QMAKE_LFLAGS_RELEASE+=/MAP
         QMAKE_CFLAGS_RELEASE += /Zi
