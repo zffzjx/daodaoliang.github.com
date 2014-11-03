@@ -19,7 +19,7 @@ redcarpet:
 
 blog:
     name: Daodaoliang Blog # 博客名称
-    description: 一个努力想成功的loser # 博客描述
+    description: 日日当精进 但求无愧 # 博客描述
     title: 徐景亮的博客 # 网页标题
     url: daodaoliang.github.io # 博客地址
     duoshuo: daodaoliang # 多说ID
