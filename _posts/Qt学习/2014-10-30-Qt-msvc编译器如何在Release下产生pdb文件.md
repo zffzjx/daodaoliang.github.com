@@ -33,6 +33,7 @@ date : 2014-10-30
  ```
  
  * 保存后重启Qtcreator或者直接重新新编译
+ * 缺陷是编译后的PDB文件不能自己修改名字和拷贝到二进制所在的目录
 
 * 方案2 修改程序的工程文件 ```*.pro``` ，增加如下：
  *
@@ -42,3 +43,4 @@ date : 2014-10-30
         QMAKE_CFLAGS_RELEASE    += /Zi
         QMAKE_LFLAGS_RELEASE    += /debug /opt:ref
  ```    
+  * ***建议使用此种方式***
