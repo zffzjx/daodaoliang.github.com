@@ -1,6 +1,6 @@
 ---
 layout: life
-date: 2099-99-99
+date: 0
 title: 生活轨迹记录
 ---
 
