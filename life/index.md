@@ -1,5 +1,6 @@
 ---
 layout: life
+date: 2099-99-99
 title: 生活轨迹记录
 ---
 
