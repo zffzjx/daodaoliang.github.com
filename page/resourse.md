@@ -23,51 +23,52 @@ layout: blog
 
 ## 目录
 
-* [1. 语言无关类](#1. 语言无关类)
-  * [1.1 操作系统](#1.1 操作系统)
-  * [1.2 WEB服务器](#1.2 web服务器)
-  * [1.3 版本控制](#1.3 版本控制)
-  * [1.4 NoSQL](#1.4 nosql)
-  * [1.5 MySQL](#1.5 mysql)
-  * [1.6 项目相关](#1.6 项目相关)
-  * [1.7 Web](#1.7 web)
-  * [1.8 大数据](#1.8 大数据)
-  * [1.9 编程艺术](#1.9 编程艺术)
+* [1. 语言无关类](#1.Non-Programing-Language)
+  * [1.1 操作系统](#1.1Operating-system)
+  * [1.2 WEB服务器](#1.2Web-server)
+  * [1.3 版本控制](#1.3Version-control)
+  * [1.4 NoSQL](#1.4Nosql)
+  * [1.5 MySQL](#1.5Mysql)
+  * [1.6 项目相关](#1.6Project)
+  * [1.7 Web](#1.7Web)
+  * [1.8 大数据](#1.8Big-data)
+  * [1.9 编程艺术](#1.9The-art-of-programming)
+  * [1.10 物联网](#1.10Internet-of-things)
 
-* [2. 语言相关类](#2. 语言相关类)
-  * [2.1 AWK](#2.1 awk)
-  * [2.2 C/C++](#2.2 cc)
-  * [2.3 CSS/HTML](#2.3 css)
-  * [2.4 Dart](#2.4 dart)
-  * [2.5 Fortran](#2.5 fortran)
-  * [2.6 Java](#2.6 java)
-  * [2.7 JavaScript](#2.7 javascript)
-  * [2.8 PHP](#2.8 php)
-  * [2.9 iOS](#2.9 ios)
-  * [2.10 Android](#2.10 android)
-  * [2.11 Python](#2.11 python)
-  * [2.12 Prolog](#2.1 2prolog)
-  * [2.13 Ruby](#2.13 ruby)
-  * [2.14 Shell](#2.14 shell)
-  * [2.15 Go](#2.15 go)
-  * [2.16 Groovy](#2.16 groovy)
-  * [2.17 LaTeX](#2.17 latex)
-  * [2.18 LISP](#2.18 lisp)
-  * [2.19 Lua](#2.19 lua)
-  * [2.20 Haskell](#2.20 haskell)
-  * [2.21 R](#2.21 r)
-  * [2.22 Scala](#2.22 scala)
-  * [2.23 Swift](#2.23 swift)
-  * [2.24 Vimscript](#2.24 vimscript)
+* [2. 语言相关类](#2.Programing-Language)
+  * [2.1 AWK](#2.1awk)
+  * [2.2 C/C++](#2.2cc)
+  * [2.3 CSS/HTML](#2.3css)
+  * [2.4 Dart](#2.4dart)
+  * [2.5 Fortran](#2.5fortran)
+  * [2.6 Java](#2.6java)
+  * [2.7 JavaScript](#2.7javascript)
+  * [2.8 PHP](#2.8php)
+  * [2.9 iOS](#2.9ios)
+  * [2.10 Android](#2.10android)
+  * [2.11 Python](#2.11python)
+  * [2.12 Prolog](#2.12prolog)
+  * [2.13 Ruby](#2.13ruby)
+  * [2.14 Shell](#2.14shell)
+  * [2.15 Go](#2.15go)
+  * [2.16 Groovy](#2.16groovy)
+  * [2.17 LaTeX](#2.17latex)
+  * [2.18 LISP](#2.18lisp)
+  * [2.19 Lua](#2.19lua)
+  * [2.20 Haskell](#2.20haskell)
+  * [2.21 R](#2.21r)
+  * [2.22 Scala](#2.22scala)
+  * [2.23 Swift](#2.23swift)
+  * [2.24 Vimscript](#2.24vimscript)
 
 * [3. 读书笔记及其它](#3. 读书笔记及其它)
 * [4. 测试相关](#4. 测试相关)
 
 ******
 
-## 1. 语言无关类
+## 1. 1.Non-Programing-Language
 
-### 1.1 操作系统
+### 1.1Operating-system
 
 * [开源世界旅行手册](http://i.linuxtoy.org/docs/guide/index.html)
 * [鸟哥的Linux私房菜](http://vbird.dic.ksu.edu.tw/) (简体)
@@ -82,15 +83,11 @@ layout: blog
 * [Mac 开发配置手册](http://aaaaaashu.gitbooks.io/mac-dev-setup/content/)
 * [FreeBSD 使用手册](https://www.freebsd.org/doc/zh_CN/books/handbook/index.html)
 
-#### 1.2 智能系统
-* [一步步搭建物联网系统](https://github.com/gmszone/designiot)
-
-
-### 1.3 WEB服务器
+### 1.2Web-server
 
 * [Nginx开发从入门到精通](http://tengine.taobao.org/book/index.html) (淘宝团队出品)
 
-### 1.4 版本控制
+### 1.3Version-control
 
 * [Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000) （本文由 [@廖雪峰](http://weibo.com/liaoxuefeng) 创作，如果觉得本教程对您有帮助，可以去 [iTunes](https://itunes.apple.com/cn/app/git-jiao-cheng/id876420437) 购买）
 * [git - 简易指南](http://rogerdudler.github.io/git-guide/index.zh.html)
@@ -107,7 +104,7 @@ layout: blog
 * [GitHub秘籍](http://snowdream86.gitbooks.io/github-cheat-sheet/content/zh/index.html)
 
 
-### 1.5 NoSQL
+### 1.4Nosql
 
 * [NoSQL数据库笔谈](http://www.yankay.com/wp-content/NoSql_Database_Note.html) ([PDF](http://yankaycom-wordpress.stor.sinaapp.com/uploads/2012/12/NoSQL%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AC%94%E8%B0%88v2.pdf))
 * [Redis 设计与实现](http://www.redisbook.com/en/latest/)
@@ -119,11 +116,11 @@ layout: blog
 * [Neo4j 简体中文手册 v1.8](http://docs.neo4j.org.cn/)
 * [Neo4j .rb 中文資源](http://neo4j.tw/)
 
-### 1.6 MySQL
+### 1.5Mysql
 
 * [MySQL索引背后的数据结构及算法原理](http://www.cnblogs.com/leoo2sk/archive/2011/07/10/mysql-index.html)
 
-### 1.7 项目相关
+### 1.6Project
 
 * [持续集成（第二版）](http://article.yeeyan.org/view/2251/94882) (译言网)
 * [让开发自动化系列专栏](http://www.ibm.com/developerworks/cn/java/j-ap/)
@@ -132,7 +129,7 @@ layout: blog
 * [Joel谈软件](http://local.joelonsoftware.com/wiki/Chinese_\(Simplified\))
 * [約耳談軟體(Joel on Software)](http://local.joelonsoftware.com/wiki/%E9%A6%96%E9%A0%81)
 
-### 1.8 Web
+### 1.7Web
 
 * [关于浏览器和网络的 20 项须知](http://www.20thingsilearned.com/zh-CN/home)
 * [前端知识体系](http://knowledge.ecomfe.com/)
@@ -151,23 +148,27 @@ layout: blog
 * [前端代码规范 及 最佳实践](http://coderlmn.github.io/code-standards/)
 * [w3school教程整理](http://www.flygon.net/archives/427)
 
-### 1.9 大数据
+### 1.8Big-data
 
 * [大数据/数据挖掘/推荐系统/机器学习相关资源](https://github.com/Flowerowl/Big-Data-Resources)
 
-## 编程艺术
+### 1.9The-art-of-programming
 
 * [程序员编程艺术](https://github.com/julycoding/The-Art-Of-Programming-by-July)
 * [每个程序员都应该了解的内存知识(译)](http://www.oschina.net/translate/what-every-programmer-should-know-about-memory-part1?print)【第一部分】
 * [取悦的工序：如何理解游戏](http://read.douban.com/ebook/4972883/) (豆瓣阅读，免费书籍)
 
-## 2. 语言相关类
+#### 1.10Internet-of-things
+* [一步步搭建物联网系统](https://github.com/gmszone/designiot)
 
-### 2.1 AWK
+
+## 2.Programing-Language
+
+### 2.1AWK
 
 * [awk程序设计语言](http://awk.readthedocs.org/en/latest/)
 
-### 2.2 C/C++
+### 2.2C/C++
 
 * [C++ 并发编程指南](https://github.com/forhappy/A-Detailed-Cplusplus-Concurrency-Tutorial) ([@傅海平ICT](http://weibo.com/1702076100))
 * [Linux C编程一站式学习](http://akaedu.github.io/book/) (宋劲杉, 北京亚嵌教育研究中心)
@@ -186,7 +187,7 @@ layout: blog
 * [C++ FAQ LITE(中文版)](http://www.sunistudio.com/cppfaq/)
 * [C++ Primer 5th Answers](https://github.com/Mooophy/Cpp-Primer)
 
-### 2.3 CSS
+### 2.3CSS
 
 * [学习CSS布局](http://zh.learnlayout.com/)
 * [通用 CSS 笔记、建议与指导](https://github.com/chadluo/CSS-Guidelines/blob/master/README.md)
@@ -194,15 +195,15 @@ layout: blog
 * [Emmet 文档](http://yanxyz.github.io/emmet-docs/)
 * [前端代码规范](http://alloyteam.github.io/code-guide/) (腾讯alloyteam团队)
 
-### 2.4 Dart
+### 2.4Dart
 
 * [Dart 语言导览](http://dart.lidian.info/wiki/Language_Tour)
 
-### 2.5 Fortran
+### 2.5Fortran
 
 * [Fortran77和90/95编程入门](http://micro.ustc.edu.cn/Fortran/ZJDing/)
 
-### 2.6 Java
+### 2.6Java
 
 * [实时 Java 系列](http://www.ibm.com/developerworks/cn/java/j-rtj/?ca=j-h-p)
 * [Apache Shiro 用户指南](https://github.com/waylau/apache-shiro-1.2.x-reference)
@@ -239,7 +240,7 @@ layout: blog
 * [Jersey 2.x 用户指南](https://github.com/waylau/Jersey-2.x-User-Guide)
 * [MyBatis中文文档](http://mybatis.github.io/mybatis-3/zh/index.html)
 
-### 2.7 JavaScript
+### 2.7JavaScript
 
 * [Google JavaScript 代码风格指南](http://chajn.org/jsguide/javascriptguide.html)
 * [Airbnb JavaScript 规范](https://github.com/adamlu/javascript-style-guide)
@@ -290,7 +291,7 @@ layout: blog
     * [Ext4.1.0 中文文档](http://extjs-doc-cn.github.io/ext4api/)
 * [Chrome扩展及应用开发](http://www.ituring.com.cn/minibook/950)
 
-### 2.8 PHP
+### 2.8PHP
 
 * [PHP调试技术手册](http://www.laruence.com/2010/06/21/1608.html)(PDF)
 * [XDebug 2中文手册(译)](http://www.blogkun.com/project.html) (CHM)
@@ -308,7 +309,7 @@ layout: blog
 * [简单易懂的PHP魔法](http://www.nowamagic.net/librarys/books/contents/php)
 * [swoole文档及入门教程](https://github.com/LinkedDestiny/swoole-doc)
 
-### 2.9 iOS
+### 2.9iOS
 
 * [iOS开发60分钟入门](https://github.com/qinjx/30min_guides/blob/master/ios.md)
 * [iOS7人机界面指南](http://isux.tencent.com/ios-human-interface-guidelines-ui-design-basics-ios7.html)
@@ -316,13 +317,13 @@ layout: blog
 * [iPhone 6 屏幕揭秘](http://wileam.com/iphone-6-screen-cn/)
 * [Apple Watch开发初探](http://nilsun.github.io/apple-watch/)
 
-### 2.10 Android
+### 2.10Android
 
 * [Android Design(中文版)](http://www.apkbus.com/design/index.html)
 * [Google Android官方培训课程中文版](http://hukai.me/android-training-course-in-chinese/index.html)
 * [Android学习之路](http://stormzhang.github.io/android/2014/07/07/learn-android-from-rookie/)
 
-### 2.11 Python
+### 2.11Python
 
 * [小白的Python教程](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000)
 * [简明Python教程](http://woodpecker.org.cn/abyteofpython_cn/chinese/)
@@ -352,7 +353,7 @@ layout: blog
 * [Scrapy 0.25 文档](http://scrapy-chs.readthedocs.org/zh_CN/latest/)
 * [ThinkPython](https://github.com/carfly/thinkpython-cn)
 
-### 2.12 Ruby
+### 2.12Ruby
 
 * [Ruby 风格指南](https://github.com/JuanitoFatas/ruby-style-guide/blob/master/README-zhCN.md)
 * [Rails 风格指南](https://github.com/JuanitoFatas/rails-style-guide/blob/master/README-zhCN.md)
@@ -362,11 +363,11 @@ layout: blog
 * [Ruby on Rails Tutorial 原书第 2 版](http://railstutorial-china.org/) (本书网页版免费提供，电子版以 PDF、EPub 和 Mobi 格式提供购买，仅售 9.9 美元)
 * [编写Ruby的C拓展](http://wusuopu.gitbooks.io/write-ruby-extension-with-c/content/)
 
-### 2.13 Shell
+### 2.13Shell
 
 * [Shell脚本编程30分钟入门](https://github.com/qinjx/30min_guides/blob/master/shell.md)
 
-### 2.14 Go
+### 2.14Go
 
 * [Go编程基础](https://github.com/Unknwon/go-fundamental-programming)
 * [Go入门指南](https://github.com/Unknwon/the-way-to-go_ZH_CN)
@@ -375,56 +376,56 @@ layout: blog
 * [Go实战开发](https://github.com/astaxie/Go-in-Action) (当我收录此项目时，作者已经写完第三章，如果读完前面章节觉得有帮助，可以给作者[捐赠](https://me.alipay.com/astaxie)，以鼓励作者的继续创作)
 * [Network programming with Go 中文翻译版本](https://github.com/astaxie/NPWG_zh)
 
-### 2.15 Groovy
+### 2.15Groovy
 
 * [实战 Groovy 系列](http://www.ibm.com/developerworks/cn/java/j-pg/)
 
-### 2.16 LaTeX
+### 2.16LaTeX
 
 * [一份其实很短的 LaTeX 入门文档](http://liam0205.me/2014/09/08/latex-introduction/)
 * [一份不太简短的 LATEX 2ε 介绍](http://www.mohu.org/info/lshort-cn.pdf) （PDF版）
 
-### 2.17 LISP
+### 2.17LISP
 
 * [ANSI Common Lisp 中文翻譯版](http://acl.readthedocs.org/en/latest/)
 
-### 2.18 Lua
+### 2.18Lua
 
 * [Lua编程入门](https://github.com/andycai/luaprimer)
 
-### 2.19 Haskell
+### 2.19Haskell
 
 * [Real World Haskell 中文版](http://rwh.readthedocs.org/en/latest/)
 
-### 2.20 R
+### 2.20R
 
 * [R语言忍者秘笈](https://github.com/yihui/r-ninja)
 
-### 2.21 Scala
+### 2.21Scala
 
 * [Scala课堂](http://twitter.github.io/scala_school/zh_cn/index.html) (Twitter的Scala中文教程)
 * [Effective Scala](http://twitter.github.io/effectivescala/index-cn.html)(Twitter的Scala最佳实践的中文翻译)
 * [Scala指南](http://zh.scala-tour.com/)
 
-### 2.22 Swift
+### 2.22Swift
 
 * [The Swift Programming Language 中文版](http://numbbbbb.github.io/the-swift-programming-language-in-chinese/)
 
-### 2.23 Perl
+### 2.23Perl
 
 * [Modern Perl 中文版](https://github.com/horus/modern_perl_book)
 * [Perl 程序员应该知道的事](http://perl.linuxtoy.org/)
 
-### 2.24 Prolog
+### 2.24Prolog
 
 * [笨办法学Prolog](http://fengdidi.github.io/blog/2011/11/15/qian-yan/)
 
-### 2.25 Vimscript
+### 2.25Vimscript
 
 * [笨方法学Vimscript 中译本](http://learnvimscriptthehardway.onefloweroneworld.com/)
 * [Vim中文文档](https://github.com/vimcn/vimcdoc)
 
-### 2.26 Scheme
+### 2.26Scheme
 * [Yet Another Scheme Tutorial Scheme入门教程](http://deathking.github.io/yast-cn/)
 
 ### 3. 读书笔记及其它
