@@ -35,7 +35,7 @@ layout: blog
   * [1.9 编程艺术](#1.9 编程艺术)
 
 * [2. 语言相关类](#2. 语言相关类)
-  * [2.1 AWK](#2.1 awk)
+  * [2.1 AWK](#2.1awk)
   * [2.2 C/C++](#2.2 cc)
   * [2.3 CSS/HTML](#2.3 css)
   * [2.4 Dart](#2.4 dart)
@@ -163,7 +163,7 @@ layout: blog
 
 ## 2. 语言相关类
 
-### 2.1 AWK
+### 2.1AWK
 
 * [awk程序设计语言](http://awk.readthedocs.org/en/latest/)
 
