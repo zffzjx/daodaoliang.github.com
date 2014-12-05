@@ -8,6 +8,7 @@ layout: blog
 #编程中文书籍索引
 
 阅读前声明：
+
 * 本文最初转载自：[这个网站](http://siberiawolf.com/free_programming/index.html)
 * 我现在和以后会按照个人爱好对文章进行修改；
 
@@ -25,14 +26,14 @@ layout: blog
 
 * [1. 语言无关类](#1. 语言无关类)
   * [1.1 操作系统](#1.1 操作系统)
-  * [1.2 WEB服务器](#1.2 web服务器)
-  * [1.3 版本控制](#1.3 版本控制)
-  * [1.4 NoSQL](#1.4 nosql)
-  * [1.5 MySQL](#1.5 mysql)
-  * [1.6 项目相关](#1.6 项目相关)
-  * [1.7 Web](#1.7 web)
-  * [1.8 大数据](#1.8 大数据)
-  * [1.9 编程艺术](#1.9 编程艺术)
+  * [1.2 智能硬件](#1.2 智能系统) 
+  * [1.3 WEB服务器](#1.3 web服务器)
+  * [1.4 版本控制](#1.4 版本控制)
+  * [1.5 NoSQL](#1.5 nosql)
+  * [1.6 MySQL](#1.6 mysql)
+  * [1.7 项目相关](#1.7 项目相关)
+  * [1.8 Web](#1.8 web)
+  * [1.9 大数据](#1.9 大数据)
 
 * [2. 语言相关类](#2. 语言相关类)
   * [2.1 AWK](#2.1 awk)
@@ -62,6 +63,7 @@ layout: blog
 
 * [3. 读书笔记及其它](#3. 读书笔记及其它)
 * [4. 测试相关](#4. 测试相关)
+* [5. 编程艺术](#5. 编程艺术)
 
 ******
 
@@ -154,12 +156,6 @@ layout: blog
 ### 1.9 大数据
 
 * [大数据/数据挖掘/推荐系统/机器学习相关资源](https://github.com/Flowerowl/Big-Data-Resources)
-
-## 编程艺术
-
-* [程序员编程艺术](https://github.com/julycoding/The-Art-Of-Programming-by-July)
-* [每个程序员都应该了解的内存知识(译)](http://www.oschina.net/translate/what-every-programmer-should-know-about-memory-part1?print)【第一部分】
-* [取悦的工序：如何理解游戏](http://read.douban.com/ebook/4972883/) (豆瓣阅读，免费书籍)
 
 ## 2. 语言相关类
 
@@ -445,3 +441,9 @@ layout: blog
 ### 4. 测试相关
 
 * [移动APP自动化测试优秀框架Appium API Reference V1.2.0 CN](http://appium.io/slate/cn/v1.2.0/)
+
+## 5. 编程艺术
+
+* [程序员编程艺术](https://github.com/julycoding/The-Art-Of-Programming-by-July)
+* [每个程序员都应该了解的内存知识(译)](http://www.oschina.net/translate/what-every-programmer-should-know-about-memory-part1?print)【第一部分】
+* [取悦的工序：如何理解游戏](http://read.douban.com/ebook/4972883/) (豆瓣阅读，免费书籍)
