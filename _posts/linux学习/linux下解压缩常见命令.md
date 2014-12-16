@@ -1,7 +1,7 @@
 ---
 layout : life
-title: shell学习简介
-category : shell学习
+title: linux下常用的解压命令
+category : linux学习
 duoshuo: true
 date : 2014-11-07
 ---
