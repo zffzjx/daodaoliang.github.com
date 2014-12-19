@@ -11,6 +11,7 @@ layout: blog
 
 * 本文最初转载自：[这个网站](http://siberiawolf.com/free_programming/index.html)
 * 我现在和以后会按照个人爱好对文章进行修改；
+* 若有任何疑问请联系[刀刀亮](mailto:daodaoliang@yeah.net)
 
 ******
 
