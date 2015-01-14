@@ -22,7 +22,6 @@ date : 2015-01-14
 ## 服务端测试例子
 
 ```python
-==== code1.py ====
 import sys
 from twisted.internet.protocol import ServerFactory
 from twisted.protocols.basic import LineReceiver
