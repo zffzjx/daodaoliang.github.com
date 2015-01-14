@@ -64,3 +64,6 @@ if __name__ =="__main__"
 	reactor.listenTCP(9999, MyFactory(2))
 	reactor.run()
 ```
+
+![测试例子](/res/img/blog/python学习/2015-01-14.png)
+
