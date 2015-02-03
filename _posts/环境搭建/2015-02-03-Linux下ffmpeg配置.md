@@ -58,5 +58,19 @@ x264 依赖于yasm，而且版本较高。
 
 configure过程根据自己的情况开启某部分功能。
 
+***常见错误***
+
+```sh
+	ffmpeg: error while loading shared libraries: libavdevice.so.53: cannot open shared object file: No such file or directory
+```
+
+解决办法：
+
+```sh
+vi /etc/ld.so.conf
+加入：/usr/local/lib
+执行ldconfig
+```
+
 
 
