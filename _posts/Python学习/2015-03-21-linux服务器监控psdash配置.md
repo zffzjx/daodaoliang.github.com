@@ -30,12 +30,16 @@ psdash是一款linux下的系统资源监控的web版本，和其相似的还有
 * 或者用安装脚本
 
 ```sh
+	sudo git clone  https://github.com/daodaoliang/psdash.git
+	sudo cd  psdash
 	sudo python setup.py install
 ```
 
 * 也可以直接启用python
 
 ```sh
+	sudo git clone  https://github.com/daodaoliang/psdash.git
+	sudo cd  psdash
 	sudo python ./psdash/run.py
 ```
 
@@ -44,7 +48,7 @@ psdash是一款linux下的系统资源监控的web版本，和其相似的还有
 * 直接测试
 
 ```
-	sudo psdash -p 5000
+	sudo psdash -p 5000 -l '/var/log/*.log'
 ```
 
 * 打开浏览器进行测试
