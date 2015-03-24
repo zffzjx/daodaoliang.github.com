@@ -24,12 +24,6 @@ date: 2015-03-34
 
 在里面编写如下内容
 
-	#!bin/bash
-	
-	mysqldump -uroot -p123456 dbname | gzip > /usr/local/dbbackup/dbname`date +%Y-%m-%d_%H%M%S`.sql.gz
-	
-	cd  /usr/local/dbbackup
-   	
 
 **3.更改备份脚本权限 **
 
