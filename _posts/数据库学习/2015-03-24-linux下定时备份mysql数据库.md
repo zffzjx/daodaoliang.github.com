@@ -24,15 +24,13 @@ date: 2015-03-34
 
 在里面编写如下内容
 
-```sh
 	#!bin/bash
-
+	
 	mysqldump -uroot -p123456 dbname | gzip > /usr/local/dbbackup/dbname`date +%Y-%m-%d_%H%M%S`.sql.gz
 	
 	cd  /usr/local/dbbackup
    	
 	rm -rf 'find . -name '*.sql.gz' -mtime 30'  #删除30天前的备份文件
-```
 
 **3.更改备份脚本权限 **
 
