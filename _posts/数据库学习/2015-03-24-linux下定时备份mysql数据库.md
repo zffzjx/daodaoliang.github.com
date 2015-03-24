@@ -1,9 +1,9 @@
 ---
-layout : life
-title : linux下mysql定时备份
-category : 数据库学习
-duoshuo : true
-date : 2015-03-34
+layout:life
+title:linux下mysql定时备份
+category:数据库学习
+duoshuo:true
+date:2015-03-34
 ---
 
 <!-- more -->
