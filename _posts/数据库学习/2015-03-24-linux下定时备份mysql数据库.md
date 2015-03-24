@@ -3,7 +3,7 @@ layout: life
 title: linux下mysql定时备份
 category: 数据库学习
 duoshuo: true
-date: 2015-03-34
+date: 2015-03-24
 ---
 
 
@@ -24,6 +24,14 @@ date: 2015-03-34
 
 在里面编写如下内容
 
+```
+	mysqldump -uroot -p1W8a6N0g1Y3i3F1a1N99 cusflo | gzip > /usr/local/cusflo-dbback/cusflo`date +%Y-%m-%d_%H%M%S`.sql.gz
+
+	cd  /usr/local/cusflo-dbback/
+
+	rm -rf `find . -name '*.sql.gz' -mtime 30`
+
+```
 
 ### 3.更改备份脚本权限
 
