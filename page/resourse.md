@@ -92,6 +92,7 @@ date: 2014-10-18
 * [Redis 设计与实现](http://www.redisbook.com)
 * [Redis 资料汇总](http://blog.nosqlfan.com/html/3537.html)
 * [The Little MongoDB Book 中文版](https://github.com/justinyhuang/the-little-mongodb-book-cn)
+* [MongoDB资料汇总](http://blog.nosqlfan.com/html/3548.html)
 
 
 #### 智能系统
