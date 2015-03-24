@@ -1,14 +1,14 @@
 ---
 layout : life
-title: linux下mysql定时备份
+title : linux下mysql定时备份
 category : 数据库学习
-duoshuo: true
+duoshuo : true
 date : 2015-03-34
 ---
 
 <!-- more -->
 
-**1.  在服务器上建立备份文件的存放文件夹**
+**1. 在服务器上建立备份文件的存放文件夹**
 
 ```sh
 	sudo mkdir /usr/local/dbbackup
@@ -19,6 +19,8 @@ date : 2015-03-34
 ```sh
 	vi dbbackup.sh 
 ```
+
+and
 
 ```sh
 	#!bin/bash
