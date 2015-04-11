@@ -1,6 +1,6 @@
 ---
 layout : life
-title: centos6.5下redis环境搭建
+title: ubuntu下redis环境搭建
 category : 环境搭建
 duoshuo: true
 date : 2015-03-24
@@ -10,7 +10,7 @@ date : 2015-03-24
 
 ******
 
-## ***centos6.5下redis环境搭建***
+## ***ubuntu下redis环境搭建***
 
 ### ***1. 下载安装***
 
