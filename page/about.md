@@ -27,3 +27,5 @@ date: 2014-10-18
 * 第七次，它侧身于生活的污泥中，虽不甘心，却又畏首畏尾。
 ******
 ![daodaoliang](/res/img/blog/daodaoliang.jpg)
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=110215&auto=1&height=66"></iframe>
