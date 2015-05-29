@@ -5,6 +5,8 @@ duoshuo: true
 date: 2014-10-18
 ---
 
+<embed src="http://music.163.com/style/swf/widget.swf?sid=26508242&type=2&auto=1&width=320&height=66" width="340" height="86"  allowNetworking="all"></embed>
+
 > 
 喜欢研究计算机世界的运行原理，喜欢数据交互的可视化，喜欢通过coding来表达我对这个世界的看法。
 
@@ -28,4 +30,3 @@ date: 2014-10-18
 ******
 ![daodaoliang](/res/img/blog/daodaoliang.jpg)
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=110215&auto=1&height=66"></iframe>
