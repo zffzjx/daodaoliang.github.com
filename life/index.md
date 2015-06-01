@@ -6,6 +6,31 @@ title: 心情杂货铺
 
 -----------------------------------------------
 
+<link rel="stylesheet" href="/res/css/page.css">
+<div>
+{% for post in site.life reverse %}
+{% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
+{% if year != y %}{% assign year = y %}<h1 class="year">{{ post.date | date: "%Y" }}</h1>{% endif %}
+<div class="timing">
+  <time class="time">{{ post.date | date: "%m" }}-{{ post.date | date: "%d" }}</time>
+  <div class="link"><a href="{{ post.url }}">{{post.title}}</a></div>
+  <div class="point-time "></div>
+</div>
+{% endfor %}
+</div>
+<br/>
+<script>
+$(function() {
+  var tags_a = $(".point-time");
+  tags_a.each(function(){
+    var x = 5;
+    var y = 0;
+    var rand = parseInt(Math.random() * (x - y + 1) + y);
+    $(this).addClass("point"+rand);
+  });
+});
+
+
 #生命在不停的流逝
 
 ******
@@ -115,6 +140,12 @@ title: 心情杂货铺
 | [2015-05-14](/life/2015/5/2015-05-14.html)|``` ｡◕‿◕｡``` |
 | [2015-05-19](/life/2015/5/2015-05-19.html)|``` <(▰˘◡˘▰)>``` |
 | [2015-05-29](/life/2015/5/2015-05-29.html)|``` <(▰˘◡˘▰)>``` |
+
+## 2015年 06月
+
+|生命戳|一图志|
+|:------:|:------:|:------:|
+| [2015-06-01](/life/2015/6/2015-06-01.html)|``` ｡◕‿◕｡``` |
 
 
 
