@@ -144,7 +144,7 @@ title: 心情杂货铺
 | [2015-07-02](/life/2015/7/2015-07-02.html)|```(╯3╰)```|
 | [2015-07-07](/life/2015/7/2015-07-07.html)|```(╯3╰)```|
 | [2015-07-08](/life/2015/7/2015-07-08.html)|```花事了```|
-
+| [2015-07-20](/life/2015/7/2015-07-20.html)|```但行好事莫问前程```|
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=277686&auto=1&height=66"></iframe>
 
