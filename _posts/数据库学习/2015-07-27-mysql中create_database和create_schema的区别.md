@@ -31,4 +31,4 @@ CREATE SCHEMA is a synonym for CREATE DATABASE.
 
    中文：CREATE DATABASE根据给定的名称创建数据库，你需要拥有数据库的CREATE权限来使用这个语句。CREATE SCHEMA是CREATE DATABASE的一个代名词。
 
-    由此可见，在MySQL的语法操作中（MySQL5.0.2之后），可以使用CREATE DATABASE和CREATE SCHEMA来创建数据库，两者在功能上是一致的。在使用MySQL官方的MySQL管理工具MySQL Workbench 5.2.47创建数据库时，使用的是CREATE SCHEMA来创建数据库的。而这和MS SQL中的SCHEMA有很大差别。
+  由此可见，在MySQL的语法操作中（MySQL5.0.2之后），可以使用CREATE DATABASE和CREATE SCHEMA来创建数据库，两者在功能上是一致的。在使用MySQL官方的MySQL管理工具MySQL Workbench 5.2.47创建数据库时，使用的是CREATE SCHEMA来创建数据库的。而这和MS SQL中的SCHEMA有很大差别。
