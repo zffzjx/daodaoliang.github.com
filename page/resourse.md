@@ -8,6 +8,7 @@ date: 2014-10-18
 ### 1.刀刀亮的网盘
 
 [我就是网盘连接](http://pan.baidu.com/s/1mg63JoW)
+[在线手册查询](http://docs.pythontab.com/)
 
 
 ### 2.免费的编程中文书籍索引
