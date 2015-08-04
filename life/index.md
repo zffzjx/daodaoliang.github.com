@@ -151,7 +151,7 @@ title: 心情杂货铺
 |生命戳|一图志|
 |:------:|:------:|:------:|
 | [2015-08-03](/life/2015/8/2015-08-03.html)|```墙外行人墙里佳人笑```|
+| [2015-08-04](/life/2015/8/2015-08-04.html)|```不疯魔，不成活```|
 
-
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=277686&auto=1&height=66"></iframe>
+<embed src="http://music.163.com/style/swf/widget.swf?sid=29577003&type=2&auto=1&width=278&height=32" width="298" height="52"  allowNetworking="all"></embed>
 
