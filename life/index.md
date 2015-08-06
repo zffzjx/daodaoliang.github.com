@@ -16,7 +16,9 @@ title: 心情杂货铺
 
 ******
 
-<object type="application/x-shockwave-flash" style="outline:none;" data="http://cdn.abowman.com/widgets/fish/fish.swf?" width="300" height="200"><param name="movie" value="http://cdn.abowman.com/widgets/fish/fish.swf?"></param><param name="AllowScriptAccess" value="always"></param><param name="wmode" value="opaque"></param><param name="scale" value="noscale"/><param name="salign" value="tl"/></object>
+## 每日寄语：
+
+![刀刀亮每日一语](http://hello.api.235dns.com/api.php?code=png&key=21776cdad1009f8e2ea1e11d068a41f8)
 
 ## 2014年10月
 |生命戳|一图志|
