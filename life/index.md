@@ -156,6 +156,7 @@ title: 心情杂货铺
 | [2015-08-04](/life/2015/8/2015-08-04.html)|```不疯魔，不成活```|
 | [2015-08-05](/life/2015/8/2015-08-05.html)|```末伏盛夏```|
 | [2015-08-06](/life/2015/8/2015-08-06.html)|```圣人文森特```|
+| [2015-08-08](/life/2015/8/2015-08-08.html)|```模仿游戏```|
 
 <embed src="http://music.163.com/style/swf/widget.swf?sid=29577003&type=2&auto=1&width=278&height=32" width="298" height="52"  allowNetworking="all"></embed>
 
