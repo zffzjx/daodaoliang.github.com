@@ -160,6 +160,7 @@ title: 心情杂货铺
 | [2015-08-10](/life/2015/8/2015-08-10.html)|```怀念```|
 | [2015-08-12](/life/2015/8/2015-08-12.html)|```迷魂记```|
 | [2015-08-13](/life/2015/8/2015-08-13.html)|```小森林的夏秋```|
+| [2015-08-18](/life/2015/8/2015-08-18.html)|```笑傲江湖```|
 
 <embed src="http://music.163.com/style/swf/widget.swf?sid=3404770&type=2&auto=1&width=278&height=32" width="298" height="52"  allowNetworking="all"></embed>
 
