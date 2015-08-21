@@ -9,7 +9,7 @@ date: 2014-10-18
 
 [我就是网盘连接](http://pan.baidu.com/s/1mg63JoW)
 [在线手册查询](http://docs.pythontab.com/)
-
+[vim手册查询](http://vim.rtorr.com/lang/zh_cn/)
 
 ### 2.免费的编程中文书籍索引
 
