@@ -164,6 +164,7 @@ title: 心情杂货铺
 | [2015-08-19](/life/2015/8/2015-08-19.html)|```只记今朝笑```|
 | [2015-08-20](/life/2015/8/2015-08-20.html)|```浮躁```|
 | [2015-08-21](/life/2015/8/2015-08-21.html)|```米店```|
+| [2015-08-24](/life/2015/8/2015-08-24.html)|```going home```|
 
 <embed src="http://music.163.com/style/swf/widget.swf?sid=3404770&type=2&auto=1&width=278&height=32" width="298" height="52"  allowNetworking="all"></embed>
 
