@@ -29,7 +29,7 @@ date : 2015-08-26
 	wget percona.com/get/TOOL
 ```
 
-*** TOOL 要改为下面的的工具的名字 ***
+TOOL 要改为下面的的工具的名字
 
 
 ![工具列表](/res/img/blog/数据库学习/2015-08-26.png)
