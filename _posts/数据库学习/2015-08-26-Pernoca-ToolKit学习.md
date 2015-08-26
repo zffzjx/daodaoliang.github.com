@@ -10,6 +10,7 @@ date : 2015-08-26
 ## 工具安装
 
 > * [官网链接](http://www.percona.com/software/percona-toolkit/)
+> * [手册链接](http://pan.baidu.com/s/1bnhTLCj)
 
 
 <!-- more -->
