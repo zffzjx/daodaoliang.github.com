@@ -10,7 +10,7 @@ date : 2015-08-26
 
 ## 工具安装
 
-> * 官网链接: [http://www.percona.com/software/percona-toolkit/](t http://www.percona.com/software/percona-toolkit/)
+> * 官网链接: [http://www.percona.com/software/percona-toolkit/](http://www.percona.com/software/percona-toolkit/)
 
 *** 整包下载链接: ***
 
