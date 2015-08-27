@@ -166,6 +166,8 @@ title: 心情杂货铺
 | [2015-08-21](/life/2015/8/2015-08-21.html)|```米店```|
 | [2015-08-24](/life/2015/8/2015-08-24.html)|```going home```|
 | [2015-08-25](/life/2015/8/2015-08-25.html)|```滚蛋吧，肿瘤君```|
+| [2015-08-27](/life/2015/8/2015-08-27.html)|```暗涌```|
+
 
 <embed src="http://music.163.com/style/swf/widget.swf?sid=3404770&type=2&auto=1&width=278&height=32" width="298" height="52"  allowNetworking="all"></embed>
 
