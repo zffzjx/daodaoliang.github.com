@@ -173,6 +173,7 @@ title: 心情杂货铺
 |生命戳|一图志|
 |:------:|:------:|:------:|
 | [2015-09-09](/life/2015/9/2015-09-09.html)|```九月九```|
+| [2015-09-11](/life/2015/9/2015-09-11.html)|```千山鸟飞绝万径人踪灭```|
 
 
 <embed src="http://music.163.com/style/swf/widget.swf?sid=3404770&type=2&auto=1&width=278&height=32" width="298" height="52"  allowNetworking="all"></embed>
