@@ -80,6 +80,7 @@ date: 2014-10-18
 
 #### 版本控制
 * [Git - 简易指南](http://rogerdudler.github.io/git-guide/index.zh.html)
+* [GIT tutorial](https://blog.udemy.com/git-tutorial-a-comprehensive-guide/)
 * [Git Community Book 中文版](http://gitbook.liuhui998.com/)
 * [Git magic](http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_cn/)
 * [Git 参考手册](http://gitref.justjavac.com/)
