@@ -177,6 +177,7 @@ title: 心情杂货铺
 | [2015-09-16](/life/2015/9/2015-09-16.html)|```“冬天”来了```|
 | [2015-09-17](/life/2015/9/2015-09-17.html)|```如风```|
 | [2015-09-25](/life/2015/9/2015-09-25.html)|```最后的荒原```|
+| [2015-09-26](/life/2015/9/2015-09-26.html)|```你好娜美```|
 
 
 <embed src="http://music.163.com/style/swf/widget.swf?sid=3404770&type=2&auto=1&width=278&height=32" width="298" height="52"  allowNetworking="all"></embed>
