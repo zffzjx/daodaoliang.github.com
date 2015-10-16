@@ -16,9 +16,6 @@ title: 心情杂货铺
 
 ******
 
-## 每日寄语：
-
-![刀刀亮每日一语](http://hello.api.235dns.com/api.php?code=png&key=21776cdad1009f8e2ea1e11d068a41f8)
 
 ## 2014年10月
 |生命戳|一图志|
@@ -179,6 +176,12 @@ title: 心情杂货铺
 | [2015-09-25](/life/2015/9/2015-09-25.html)|```最后的荒原```|
 | [2015-09-26](/life/2015/9/2015-09-26.html)|```你好娜美```|
 
+## 2015年 10月
 
-<embed src="http://music.163.com/style/swf/widget.swf?sid=3404770&type=2&auto=1&width=278&height=32" width="298" height="52"  allowNetworking="all"></embed>
+|生命戳|一图志|
+|:------:|:------:|:------:|
+| [2015-10-16](/life/2015/10/2015-10-16.html)|```Yellow```|
+
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=3404770&auto=1&height=66"></iframe>
 
