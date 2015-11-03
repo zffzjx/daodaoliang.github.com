@@ -188,7 +188,7 @@ title: 心情杂货铺
 |生命戳|一图志|
 |:------:|:------:|:------:|
 | [2015-11-02](/life/2015/11/2015-11-02.html)|```羞怯的脸带有一点稚气```|
-
+| [2015-11-02](/life/2015/11/2015-11-02.html)|```娜美打预防针了```|
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=3404770&auto=1&height=66"></iframe>
 
