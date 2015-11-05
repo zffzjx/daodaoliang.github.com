@@ -221,7 +221,7 @@ date: 2014-10-18
 ### reStructuredText
 * [reStructuredText 入门](http://www.pythondoc.com/sphinx/rest.html)
 * [reStructuredText 简明教程](http://jwch.sdut.edu.cn/book/rst.html)
-
+* [Sphinx 使用手册](https://zh-sphinx-doc.readthedocs.org/en/latest/)
 
 ### Ruby
 * [Rails 风格指南](https://github.com/JuanitoFatas/rails-style-guide/blob/master/README-zhCN.md)
