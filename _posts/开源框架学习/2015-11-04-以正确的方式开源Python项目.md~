@@ -553,6 +553,123 @@ version = '.'.join(release.split('.')[:2])
   
   考虑到更改default到html_theme，我更喜欢原生态的东西，显然这是一个个人喜好的问题。我之所以提出这个问题是因为Python官方文档在Python 2和Python 3将默认主题更改为Pydoc主题（后者的主题是一个自定义主题仅在CPython源代码中可用）。对一些人来说，默认的主题使一个项目看起来“老”一些。
 
+### 1.9 PyPI
+
+  [PyPI][5]，[Python包索引][5]（以前被称为“Cheeseshop”）是一个公开可用的Python包中央数据库。PyPI是你的项目发布的地方。一旦你的包（及其相关的元数据）上传到PyPI，别人通过pip或easy_instal可以下载并安装它。这一点得强调一下：即使你的项目托管在GitHub，直到被上传到PyPI后你的项目才是有用的。当然，有些人可以复制你的git库任何直接手工安装它，但更多的人想使用pip来安装它。
+
+**最后的一步**
+
+  如果你已经完成了所有的前面部分中的步骤，你可能急着想把你的包上传到PyPI，供其他人使用！先别急着做上述事情，在分发你的包之前，有一个叫做cheesecake的有用的工具有助于运行最后一步。它分析你的包并指定一个分类的数字分数。它衡量你的包在打包、安装、代码质量以及文档的数量和质量方面是否容易/正确。除了作粗略衡量的“准备”，cheesecake在完整性检查方面很优秀。你会很快看到你的setup.py文件是否有错或者有没有忘记为一个文件制作文档。我建议在上传每个项目到PyPI之前运行一下它，而不仅只是第一个。
+
+**初始化上传**
+
+现在，你已经确定了你的代码不是垃圾和当人们安装它时不会崩溃，让我们把你的包放到PyPI上吧！你将会通过setuptools和setup.py脚本交互。如果这是第一次上传到PyPI，你将首先注册它：
+
+```sh
+ $ python setup.py register
+```
+
+注意：如果你还没有一个免费的PyPI账户，你将需要现在去注册一个，才能注册这个包[@Lesus 注：注册之后还需要到邮箱去验证才行]。在你已使用了上面注册之后，你就可以创建发布包和上传到PyPI了: 
+
+```sh
+ $ python setup.py sdist upload
+```
+
+上面这个命令建立一个源码发布版(sdist)，然后上传到PyPI.如果你的包不是纯粹的Python（也就是说，你有二进制需要编译进去），你就需要发布一个二进制版，请看setuptools文档，了解更多。
+
+
+**发布及版本号**
+
+PyPI使用发行版本模型来确定你软件包的哪个版本是默认可用的。初次上传后，为使你软件包的每次更新后在PyPI可用，你需要指定一个新版本号创建一个发布。版本号管理是一个相当复杂的课题，PEP有专门的内容：PEP 440——版本识别和依赖指定。我建议参照PEP 400指南（明显地），但如果你选择使用不同版本的方案，在setup.py中使用的版本比目前PyPI中的版本“高”，这样PyPI才会认为这是一个新版本。
+
+**工作流**
+
+将你的第一个发布版本上传到PyPI后，基本的工作流程如下：
+
++ 继续在你的项目上工作 (比如修复bug，添加新特性等等)
++ 确保测试通过
++ 在git-flow中创建一个发布分支“冻结”你的代码
++ 在你项目的__init__.py文件里更新__version__number版本变量
++ 多次测试运行setup.py，将新版本上传到PyPI
+
+用户希望你保持足够的更新频率以修复bug。你要管理好你的版本号，不要“过于频繁”的发布。记住：你的用户不会手工维护他们每个安装模块的不同的版本。
+
+
+### 1.10 使用TravisCI持续集成
+
+  持续集成是指一个项目中所有变化不断整合的过程（不是周期性的批量更新）。就我们而言，这意味每次我们GitHub提交时，我们通过测试运行来发现是否有什么异常，正如你想象的，这是一个非常有价值的实践。不要有“忘记运行测试”的提交。如果你的提交通不过测试，你将收到一封电子邮件被告知。
+
+[TravisCI][6]是一种使GitHub项目持续集成更容易的服务。如果你还没有账号到这看一下注册一个，完成这些之后，在我们进入CI之前我们先需要创建一个简单的文件。
+
+
+**通过.travis.yml配置**
+
+在TravisCI上的不同项目通过一个.travis.yml文件来配置，这个文件在项目的根目录。简要地说，我们需要告诉Travis：
+
++ 我们项目使用的语言是什么
++ 它使用的是语言的哪个版本
++ 使用什么命令安装它
++ 使用什么命令运行项目的测试
+
+这些都是很直接的东西。下面是sandman.travis.yml的内容：
+
+```python
+language: python
+python:
+    - "2.7"
+install:
+    - "pip install -r requirements.txt --use-mirrors"
+    - "pip install coverage"
+    - "pip install coveralls"
+script:
+    - "coverage run --source=sandman setup.py test"
+after_success:
+    coveralls
+```
+
+
+在列出语言和版本后，我们告诉Travis如何安装我们的包。在install这行，确认包含下面这行：
+
+```python
+- "pip install -r requirements.txt --use-mirrors"
+```
+
+这是pip安装我们项目的要求（如果有必要的话使用PyPI镜像站点）。另外的两行内容是sandman特有的。它使用一个额外的服务（coveralls.io）来连续监测测试用例的覆盖率，这不是所有项目都需要的。
+
+script：列出能运行该项目测试的命令。与上面一样，sandman还需要做一些额外的工作。你的项目需要的只有Python的setup.py测试，after_success部分也可以一块删掉。
+
+一旦你提交了这个文件并在TravisCI中激活了你的项目的，push到GitHub。一会儿后，你会看到一个基于你最近提交的编译结束结果。如果成功了，你的编译呈现“绿色”和并且状态页会显示编译通过。你可以看到你项目在任何时间的编译历史。这对对人开发特别有用，在历史页可以看到特定开发者出错和编译的频率…
+
+你还会收到一封通知你编译成功的电子邮件。当然你也可以设置只有在出错或错误被修复时才有邮件通知，但编译输出结果相同时也不会发送。这是非常有用的，你在不必被无用的“编译通过！”邮件淹没的同时在发生改变仍会收到警示。
+
+### 1.11 用ReadTheDocs做持续文档集成
+
+  尽管PyPI有一个官方文档站点（pythonhosted.org），但是ReadTheDocs提供了一个更好的体验。为什么？ReadTheDocs有针对GitHub非常棒的集成。当你注册ReadTheDocs的时候，你就会看到你的所有GitHub 代码库。选择合适的代码库，做一些小幅的配置，那么你的文档就会在你每次提交到GitHub之后自动重新生成。
+
+配置你的项目应该是一个很直观的事情。只有一些事需要记住，尽管，这里有一个配置字段的列表，对应的值可能不一定是你直接用得上的：
+
++ Repo: https://github.com/github_username/project_name.git
++ Default Branch:develop
++ Default Version:latest
++ Python configuration file: (leave blank)
++ Usevirtualenv: (checked)
++ Requirements file:requirements.txt
++ Documentation Type: Sphinx HTML
+
+### 1.12 DRY 不要重复你自己
+
+  现在你已经完成了对于一个现存代码基础的所有艰难的开源工作，你可能不会想在开始一个新项目的时候把这些事重来一遍。幸运的是，你并不需要这么做。有Andrey Roy的[Cookiecutter][7]工具（我链接到了Python版本，尽管还有一些不同语言的版本在the main repo)）
+
+Cookiecutter是一个命令行工具能够自动执行新建项目的一些步骤来做这篇文章里提到的一些事情。 Daniel Greenfeld ( @pydanny )写了一篇很好的关于它的博客并且提到了如何与这篇文章里提到的实践联系上。你可以从这里看看这篇文章： [Cookiecutter: Project Templates Made Easy][8] .
+
+
+## 结论
+
+我们已经介绍了所有用来开源一个Python包的命令，工具和服务。当然，你可以直接把它扔到GitHub上并且说“自己安装它”，但是没人会这么做。并且你仅仅是开发源代码并不算是真正的开源软件。
+
+另外，你可能不会为你的项目吸引外部贡献者。通过这里列出的方法来设立你的项目，你就已经创建了一个容易维护的Python包并且会鼓励大家来使用和贡献代码。而这，就是开源软件的真正精神，不是吗？
+
+
 [0]: http://www.oschina.net/translate/open-sourcing-a-python-project-the-right-way?print
 
 [1]: https://github.com/nvie/gitflow/wiki/Installation
@@ -562,3 +679,13 @@ version = '.'.join(release.split('.')[:2])
 [3]: /res/img/blog/开源框架学习/2015-11-05-002.png
 
 [4]: http://sphinx-doc.org/
+
+[5]: https://pypi.python.org/pypi
+
+[6]: http://www.travis-ci.org/
+
+[7]: https://github.com/audreyr/cookiecutter-pypackage
+
+[8]: http://www.pydanny.com/cookie-project-templates-made-easy.html
+
+
