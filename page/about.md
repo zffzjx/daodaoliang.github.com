@@ -20,7 +20,7 @@ date: 2014-10-18
 
 * 第四次，它犯了错，却借由别人也会犯错来宽慰自己；
 
-* 第五次，它[自由][0]软弱，却把它认为是生命的坚韧； 
+* 第五次，它[自由](/res/download/徐景亮.md)软弱，却把它认为是生命的坚韧； 
 
 * 第六次，当它鄙夷一张丑恶的嘴脸时，却不知那正是自己面具中的一副； 
 
@@ -28,6 +28,5 @@ date: 2014-10-18
 ******
 ![daodaoliang](/res/img/blog/daodaoliang.jpg)
 
-[0]: /res/download/徐景亮.md
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=300556&auto=1&height=66"></iframe>
