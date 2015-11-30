@@ -10,6 +10,7 @@ date: 2014-10-18
 [我就是网盘连接](http://pan.baidu.com/s/1mg63JoW)
 [在线手册查询](http://docs.pythontab.com/)
 [vim手册查询](http://vim.rtorr.com/lang/zh_cn/)
+[知道创宇技能表V3.0](http://blog.knownsec.com/Knownsec_RD_Checklist/v3.0.html)
 
 ### 2.免费的编程中文书籍索引
 
@@ -208,7 +209,7 @@ date: 2014-10-18
 * [深入 Python 3](http://woodpecker.org.cn/diveintopython3/)
 * [笨办法学 Python](http://sebug.net/paper/books/LearnPythonTheHardWay/)
 * [简明 Python 教程](http://woodpecker.org.cn/abyteofpython_cn/chinese/) (《A Byte of Python》中文版)
-
+* [python 常用的安全相关的库](https://github.com/daodaoliang/python-pentest-tools/blob/master/README.md)
 
 ### R
 * [153分钟学会 R ](http://cran.r-project.org/doc/contrib/Liu-FAQ.pdf)
