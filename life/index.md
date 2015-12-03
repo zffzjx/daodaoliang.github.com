@@ -192,6 +192,12 @@ title: 心情杂货铺
 | [2015-11-04](/life/2015/11/2015-11-04.html)|```增广贤文```|
 | [2015-11-18](/life/2015/11/2015-11-18.html)|```Hope and memory```|
 
+## 2015年 12月
+
+|生命戳|一图志|
+
+| [2015-12-03](/life/2015/12/2015-12-03.html)|```乔克叔叔```|
+
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=3404770&auto=1&height=66"></iframe>
 
