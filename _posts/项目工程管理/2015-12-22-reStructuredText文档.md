@@ -12,6 +12,8 @@ reStructuredText [官方网址](http://docutils.sourceforge.net/rst.html), 打�
 
 [这里](http://sphinx-doc-zh.readthedocs.org/en/latest/rest.html)是Sphinx中关于`reStructuredText`的翻译，本文也是从里面挑拣自己平时回经常用到的语法进行示例化记录。
 
+**以下内容纯属虚构，图片也是随手在知乎上巴拉的头像**
+
 ```
 
 .. note::
