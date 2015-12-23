@@ -210,6 +210,7 @@ date: 2014-10-18
 * [笨办法学 Python](http://sebug.net/paper/books/LearnPythonTheHardWay/)
 * [简明 Python 教程](http://woodpecker.org.cn/abyteofpython_cn/chinese/) (《A Byte of Python》中文版)
 * [python 常用的安全相关的库](https://github.com/daodaoliang/python-pentest-tools/blob/master/README.md)
+* [python中文学习大本营](http://www.pythondoc.com/)
 
 ### R
 * [153分钟学会 R ](http://cran.r-project.org/doc/contrib/Liu-FAQ.pdf)
