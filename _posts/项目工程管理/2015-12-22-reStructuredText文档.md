@@ -14,6 +14,8 @@ reStructuredText [官方网址](http://docutils.sourceforge.net/rst.html), 打�
 
 **以下内容纯属虚构，图片也是随手在知乎上巴拉的头像**
 
+### 1.提示类信息
+
 ```
 
 .. note::
@@ -51,6 +53,15 @@ reStructuredText [官方网址](http://docutils.sourceforge.net/rst.html), 打�
 .. danger::
 
     我是danger信息
+```
+
+
+### 2.标题类信息
+
+在reST中标题非常简单，只要在标题上(下)使用非字母和数字的七位元ASCII记录下标线（或上标线）即可，你不需担心标题会用什么格式，只要在相同位置使用相同标记即可。可用的字符有：! " # $ % & ' ( ) * + , - . / : ; < = > ? @ [ ] ^ _ ` { | } ~。
+
+
+```
 
 ============
 文章标题测试
@@ -75,9 +86,30 @@ reStructuredText [官方网址](http://docutils.sourceforge.net/rst.html), 打�
 段落标题测试
 ******************
 
+```
+
+### 3.字体类信息
+
+```
+
 **加黑字体**
 
 *意大利斜体*
+
+\ 转义字体(后面跟着一个空格意味着后面是一个空格)
+
+
+``原始形态的字体而非Docutils处理后的文字，通常以等宽字体出现 Hello nami!``
+
+```
+
+### 4.段落 
+
+在reST中，段落只要在中间隔开一行即可，Docutils会自动判别各个段落，例如：
+
+### 5.代码块
+
+```
 
 ``I am code``
 
@@ -105,7 +137,12 @@ reStructuredText [官方网址](http://docutils.sourceforge.net/rst.html), 打�
     if __name__ == '__main__':
         app.run(debug=True)
 
-接下来时一个表格
+```
+
+### 6. 表格
+
+```
+
 ---------------------
 
 +------------------------+------------+----------+----------+
@@ -117,22 +154,127 @@ reStructuredText [官方网址](http://docutils.sourceforge.net/rst.html), 打�
 | body row 2             | ...        | ...      |          |
 +------------------------+------------+----------+----------+
 
-`我的博客啦 <http://daodaoliang.github.io>`_.
+或者更为简洁的方式
 
-`我的博客啦啦啦啦`_.
+=====  =====  ======
+   Inputs     Output
+------------  ------
+  A      B    A or B
+=====  =====  ======
+False  False  False
+True   False  True
+False  True   True
+True   True   True
+=====  =====  ======
 
-.. _我的博客啦啦啦啦: http://daodaoliang.github.io
-
-.. image::
-    https://pic4.zhimg.com/6a97b4a68a4db3f1d3ae66cd1638965f.jpeg
-
-.. 这里是注释
 ```
 
+### 7. 超链接 
+
+1. 在后面加上下划线，只要在指定目标即可形成超链接
+
+```
+`我的博客啦啦啦啦`_.
+
+.. _我的博客啦啦啦啦: http://daodaoliang.github.io(这里不仅仅可以时网址，也可以时内部标题，实现内部的跳转) 
+
+```
+
+2.内嵌网址的形式( `链接显示文字 <网址>`_ )
+
+```
+`我的博客啦 <http://daodaoliang.github.io>`_.
+```
+
+3. 直接写网址
+
+```
+daodaoliang.github.io
+```
+
+4. 无名超链接
+
+```
+`我是一个很长长长长长长长……的文字`__我是后面的文字
+
+.. __: daodaoliang.github.io
+
+或者更简洁的:
+
+__ daodaoliang.github.io`
+```
+
+5. 内部链接
+
+```
+`内部标题`_ 
+```
+
+6. 间接链接
+
+```
+`内部链接`_
+
+.. _内部链接: daodaoliang.github.io
+
+`我是链接`_
+
+.. _我是链接: 内部链接_
+
+```
+
+7. 无内容链接
+
+```
+.. _回页首:
+
+`回页首`_
+```
+
+### 8. 上下标
+
+```
+
+1. 上标:
+
+123:sup:`2` 意思123的上标为2
+
+2. 下标:
+
+123:sub:`2` 意思123的下表为2
+
+```
+
+
+### 8. 图片资源
+
+1.  段落间插入图片
+
+```
+.. image:: https://pic4.zhimg.com/6a97b4a68a4db3f1d3ae66cd1638965f.jpeg
+	:scale: 100
+	:height: 120
+	:width: 160
+	:align: left
+	:alt: I'm a girl.
+	:target: https://pic4.zhimg.com/6a97b4a68a4db3f1d3ae66cd1638965f.jpeg
+   	
+	这个女孩我也不认识，只是在知乎随手巴拉的啦，哈哈哈哈(这个功能需要PIL库)
+```
+
+2. 文字间插入图片
+
+```
+
+这里有\|内部图片|\，哈哈哈哈哈
+
+.. |内部图片| image:: https://pic4.zhimg.com/6a97b4a68a4db3f1d3ae66cd1638965f.jpeg
+
+```
+
+
 ![这里示例图01](/res/img/blog/项目工程管理/2015-12-22-01.png)
-
 ![这里示例图02](/res/img/blog/项目工程管理/2015-12-22-02.png)
-
 ![这里示例图03](/res/img/blog/项目工程管理/2015-12-22-03.png)
 
 
