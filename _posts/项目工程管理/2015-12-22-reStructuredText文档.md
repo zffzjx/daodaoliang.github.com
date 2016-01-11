@@ -247,9 +247,9 @@ __ daodaoliang.github.io`
 ```
 
 
-### 8. 图片资源
+### 9. 图片资源
 
-1.  段落间插入图片
++ 段落间插入图片
 
 ```
 .. image:: https://pic4.zhimg.com/6a97b4a68a4db3f1d3ae66cd1638965f.jpeg
@@ -263,7 +263,7 @@ __ daodaoliang.github.io`
 	这个女孩我也不认识，只是在知乎随手巴拉的啦，哈哈哈哈(这个功能需要PIL库)
 ```
 
-2. 文字间插入图片
++ 文字间插入图片
 
 ```
 
