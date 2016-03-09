@@ -9,7 +9,7 @@ date : 2016-03-09
 
 ******
 
-### 0x01 简介
+## 0x01 简介
 
 官网介绍请看[这里](http://linuxcommand.org/man_pages/logrotate8.html)
 
@@ -17,7 +17,7 @@ The logrotate utility is designed to simplify the administration of log files on
 
 <!-- more -->
 
-### 0x02 关键文件说明
+## 0x02 关键文件说明
 
 以下是logrotate运行的关键点：
 
@@ -26,7 +26,7 @@ The logrotate utility is designed to simplify the administration of log files on
 * `/etc/logrotate.conf` 全局配置文件；
 * `/etc/logrotate.d` 应用自个的配置文件存放目录，覆盖全局配置；
 
-### 0x03 关键文件说明
+## 0x03 关键文件说明
 
 **系统配置文件：**
 
@@ -74,7 +74,7 @@ The logrotate utility is designed to simplify the administration of log files on
 
 保存在`/etc/logrotate.d/`下面，所以若是想要进行自己软件的日志切割则直接在这里进行编写自己的配置文件即可；
 
-### 0x04 配置项说明
+## 0x04 配置项说明
 
 **nginx示例日志切割配置文件:**
 
@@ -121,7 +121,7 @@ The logrotate utility is designed to simplify the administration of log files on
 * size size：当日志文件到达指定的大小时才转储，Size 可以指定 bytes (缺省)以及KB (sizek)或者MB
 * missingok: 在日志轮循期间，任何错误将被忽略，例如“文件无法找到”之类的错误。
 
-### 0x05 手动命令说明
+## 0x05 手动命令说明
 
 ```
     用法: logrotate [OPTION...] <configfile>
@@ -170,7 +170,7 @@ The logrotate utility is designed to simplify the administration of log files on
 ```
 
 
-### 0x06 简单示例：
+## 0x06 简单示例：
 
 **nginx.logrotate(error.log)**
 
