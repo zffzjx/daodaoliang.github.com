@@ -32,4 +32,6 @@ date: 2014-10-18
 [1]:/page/徐景亮.html
 [2]:/res/download/徐景亮-简历.doc
 
+
+
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=300556&auto=1&height=66"></iframe>
