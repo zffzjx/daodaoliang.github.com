@@ -170,5 +170,56 @@ The logrotate utility is designed to simplify the administration of log files on
 ```
 
 
+### 0x06 简单示例：
+
+**nginx.logrotate(error.log)**
+
+```
+    /usr/local/nginx/logs/error.log {
+    dateext
+    create
+    #maxage 90
+    rotate 60
+    missingok
+    sharedscripts
+    postrotate
+    /bin/kill -USR1 `cat /var/run/nginx.pid`
+    endscript
+    }
+```
+
+**php.logrotate(php-fpm.log、php-fpm.log.slow)**
+
+```
+    /usr/local/php/var/log/php-fpm.log /usr/local/php/var/log/php-fpm.log.slow {
+    dateext
+    create
+    #maxage 90
+    rotate 60
+    missingok
+    sharedscripts
+    postrotate
+    /bin/kill -USR1 `cat /var/run/php-fpm.pid`
+    endscript
+    }
+```
+
+**mysql.logrotate(slow-log、localhost.err)**
+
+```
+    /var/lib/mysql/slow-log /var/lib/mysql/localhost.err {
+    dateext
+    create
+    # notifempty
+    #maxage 90
+    rotate 60
+    missingok
+    sharedscripts
+    postrotate
+    /usr/local/mysql/bin/mysqladmin -uroot -p'password' flush-logs
+    endscript
+    }
+```
+
 
 
