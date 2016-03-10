@@ -9,13 +9,15 @@ date : 2016-03-09
 
 ******
 
+* TOC{:toc}
+
+<!-- more -->
+
 ## 0x01 简介
 
 官网介绍请看[这里](http://linuxcommand.org/man_pages/logrotate8.html)
 
 The logrotate utility is designed to simplify the administration of log files on a system which generates a lot of log files. Logrotate allows for the automatic rotation compression, removal and mailing of log files. Logrotate can be set to handle a log file daily, weekly, monthly or when the log file gets to a certain size.
-
-<!-- more -->
 
 ## 0x02 关键文件说明
 
