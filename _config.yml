@@ -1,7 +1,5 @@
 markdown: kramdown
-kramdown:
-    input: GFM
-highlighter: rouge
+highlighter: pygments
 
 permalink: blog/:year/:month/:day/:title.html
 paginate: 5
@@ -10,6 +8,7 @@ encoding: "utf-8"
 future: true
 lsi: false
 safe: true
+gems: [jekyll-paginate]
 
 blog:
     name: Daodaoliang Blog # 博客名称
