@@ -34,4 +34,7 @@ date: 2014-10-18
 
 
 
-<embed src="http://music.163.com/style/swf/widget.swf?sid=300556&type=2&auto=1&width=278&height=32" width="298" height="52"  allowNetworking="all">
+<footer>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="http://music.163.com/outchain/player?type=2&id=300556&auto=1&height=32">
+</footer>
+
