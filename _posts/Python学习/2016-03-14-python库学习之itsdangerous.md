@@ -16,7 +16,7 @@ date : 2016-03-14
 
 itsdangerous内部默认使用了HMAC和SHA1来签名，基于 Django 签名模块。它也支持JSON Web 签名 (JWS)。这个库采用BSD协议，由Armin Ronacher编写，而大部分设计与实现的版权归Simon Willison和其他的把这个库变为现实的Django爱好者们；
 
-### 1. 安装
+## 1. 安装
 
 你可以从 `PyPI` 上直接安装这个库：
 
@@ -30,7 +30,7 @@ itsdangerous内部默认使用了HMAC和SHA1来签名，基于 Django 签名模�
 * 被签名的对象可以被保存在例如 `cookie` 等不可信来源，这意味着你不需要在服务端保存 `session` , 这样可以降低数据库读取次数；
 * 通常签名后的数据可以安全的往返与服务端和客户端之间，这个特性可以用于将服务端的状态传递到客户端在传递回来；
 
-### 2. 签名接口
+## 2. 签名接口
 
 最基本的接口是签名接口， `Signer` 类可以用来将一个签名附加到指定 string 上：
 
@@ -60,7 +60,7 @@ itsdangerous内部默认使用了HMAC和SHA1来签名，基于 Django 签名模�
     itsdangerous.BadSignature: Signature "wh6tMHxLgJqB6oY1uT73iMlyrOX" does not match
 ```
 
-### 3. 使用时间戳签名
+## 3. 使用时间戳签名
 
 如果你想要一个可以过期的签名，可以使用 `TimestampSigner` 类，它会加入时间戳信息并签名。在反签名时，你可以验证时间戳就没有过期；
 
@@ -75,7 +75,7 @@ itsdangerous内部默认使用了HMAC和SHA1来签名，基于 Django 签名模�
     itsdangerous.SignatureExpired: Signature age 15 > 5 seconds
 ```
 
-### 4. 序列化
+## 4. 序列化
 
 因为字符串难以处理，本模块也提供了一个与json或pickle类似的序列化接口.(它内部默认使用simplejson，但是可以通过子类进行修改),这个 `Serializer` 类实现了:
 
@@ -95,7 +95,7 @@ itsdangerous内部默认使用了HMAC和SHA1来签名，基于 Django 签名模�
 
 若果你需要一个时间戳， 你可以使用 `TimedSerializer` 类
 
-### 5. URL安全序列化
+## 5. URL安全序列化
 
 如果只能向一个字符受限的环境中传递可信的字符串的话，这个功能将会十分有用。`itsdangerous` 提供了一个 `URL` 安全序列化工具:
 
@@ -109,7 +109,7 @@ itsdangerous内部默认使用了HMAC和SHA1来签名，基于 Django 签名模�
     [1, 2, 3, 4]
 ```
 
-### 6. JSON WEB 签名
+## 6. JSON WEB 签名
 
 从“itsdangerous” 0.18版本开始，也支持了JSON Web签名。它们的工作方式与原有的URL安全序列化器差不多，但是会根据当前JSON Web签名（JWS）草案（10） [draft-ietf-jose-json-web-signature] 来生成header。
 
@@ -132,7 +132,7 @@ itsdangerous内部默认使用了HMAC和SHA1来签名，基于 Django 签名模�
 
 itsdangerous目前只提供HMAC SHA的派生算法以及不使用算法，不支持基于ECC的算法。header中的算法将与序列化器中的进行核对，如果不匹配，将引发 BadSignature 异常。
 
-### 7. 盐
+## 7. 盐
 
 所有的类都接受一个盐的参数。这个名字可能会误导你，因为通常你会认为，密码学中的盐会是和被签名的字符串存储在一起的东西，用来防止彩虹表查找，这种盐是公开的。
 
@@ -162,7 +162,7 @@ itsdangerous目前只提供HMAC SHA的派生算法以及不使用算法，不支
     42
 ```
 
-### 8. 对失败的响应
+## 8. 对失败的响应
 
 从itsdangerous 0.14版本开始，异常会有一些有用的属性，可以允许你在签名检查失败时，检查你的数据。这里必须极其小心，因为这个时候，你知道有某人修改了你的数据。但这可能对你debug很有帮助。
 
@@ -197,9 +197,22 @@ itsdangerous目前只提供HMAC SHA的派生算法以及不使用算法，不支
 
 返回的元组中第一项是一个布尔值，表明了签名是否是正确的。
 
-### 9.Python 3 提示
+## 9. Python 3 提示
 
 在Python 3中，itsdangerous的接口在一开始可能让人困扰。由于它封装在内部的序列化器，函数返回值不一定是unicode字符串还是字节对象。内置的签名器总是基于字节的。
 
 这是为了允许模块操作不同的序列化器，独立于它们的实现方式。模块通过执行一个空对象的序列化，来决定使用哪种序列化器。
+
+## 10. It’s Dangerous 的升级日志
+
+[直接看英文版本](http://pythonhosted.org/itsdangerous/#it-s-dangerous-changelog)
+
+## 11. API
+
+**Signers**
+
+class itsdangerous.Signer(secret_key, salt=None, sep='.', key_derivation=None, digest_method=None, algorithm=None)
+    这个类能对字节进行签名，同时能对签名后字符串的有效性进行验证
+    
+    
 
