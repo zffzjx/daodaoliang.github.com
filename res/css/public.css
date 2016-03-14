@@ -5,7 +5,7 @@
 ::-webkit-scrollbar{width:19px;}
 ::-webkit-scrollbar-track-piece{background-color:#666;}
 ::-webkit-scrollbar-thumb{background-color:#EEE;border-radius:5px;border:2px solid #EEE;}
-::-webkit-scrollbar-thumb:hover{background-color:#EEE;}
+::-webkit-scrollbar-thumb:hover{background-color:#666;}
 #top {
 	display:none;
 	position:fixed;
