@@ -206,13 +206,6 @@ itsdangerous目前只提供HMAC SHA的派生算法以及不使用算法，不支
 ## 10. It’s Dangerous 的升级日志
 
 [直接看英文版本](http://pythonhosted.org/itsdangerous/#it-s-dangerous-changelog)
-
-## 11. API
-
-**Signers**
-
-class itsdangerous.Signer(secret_key, salt=None, sep='.', key_derivation=None, digest_method=None, algorithm=None)
-    这个类能对字节进行签名，同时能对签名后字符串的有效性进行验证
     
     
 
