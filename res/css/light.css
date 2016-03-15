@@ -433,7 +433,7 @@ code {
 	font-family:Monaco,Consolas,Menlo,"Andale Mono","Courier New","Ubuntu Mono",Arial,"Microsoft YaHei","Hiragino Sans GB",sans-serif;
 	font-size:17px;
 	background:rgba(235,245,245,0.75);
-	color:#494949;
+	color:#3BDD7E;
 	margin:0 2px;
 	padding:0 4px;
 	border-radius:4px;
@@ -444,8 +444,8 @@ code {
 pre code {
 	font-family:Monaco,Consolas,Menlo,"Andale Mono","Courier New","Ubuntu Mono",Arial,"Microsoft YaHei","Hiragino Sans GB",sans-serif;
 	font-size:16px;
-	background:rgba(235,245,245,0.75);
-	border-radius:3px;
+	background:#666;
+	border-radius:10px;
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
 	line-height:1.5;
