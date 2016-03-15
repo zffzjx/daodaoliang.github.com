@@ -222,7 +222,7 @@ a:link {
 }
 #sub-nav a.rss {
 	color:#fff;
-	background:#10B909;
+	background: #b9993c;
 	padding-left:2px;
 	padding-top:3px;
 }
@@ -250,7 +250,7 @@ a:link {
 	word-break:break-all;
 }
 .post-title:hover {
-	color:#00d809;
+	color: #d89127;
 	margin-left:-3px;
 	letter-spacing:2px;
 	word-break:break-all;
@@ -300,7 +300,7 @@ a:link {
 	-moz-transition:background 0.25s;
 }
 #post-readall:hover {
-	background:#00C04D;
+	background: #5873c0;
 }
 .pagination {
 	color:#ccc;
