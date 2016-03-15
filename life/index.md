@@ -206,5 +206,3 @@ title: 心情杂货铺
 |:------:|:------:|:------:|
 | [2016-01-04](/life/2016/1/2016-01-04.html)|```知了``` |
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=3404770&auto=1&height=66"></iframe>
-
