@@ -263,7 +263,7 @@ a:link {
 	-o-transition:color 0.25s;
 }
 .post-title a:hover {
-	color:#00BB2F;
+	color: #d89127;
 }
 .post-meta {
 	color:#999;
@@ -276,7 +276,7 @@ a:link {
 	margin:0 10px;
 }
 .post-category {
-	color:#00bb2f;
+	color: #b9993c;
 	text-transform:Capitalize;
 }
 .post-category:hover {
@@ -445,7 +445,7 @@ pre code {
 	font-family:Monaco,Consolas,Menlo,"Andale Mono","Courier New","Ubuntu Mono",Arial,"Microsoft YaHei","Hiragino Sans GB",sans-serif;
 	font-size:16px;
 	background:#666;
-	border-radius:10px;
+	border-radius:12px;
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
 	line-height:1.5;
