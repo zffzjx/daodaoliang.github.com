@@ -30,6 +30,6 @@ date: 2014-10-18
 
 
 [1]:/page/徐景亮.html
-[2]:/res/download/徐景亮-简历.pdf
+[2]:/res/download/daodaoliang.pdf
 
 
