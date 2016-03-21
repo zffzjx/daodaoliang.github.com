@@ -29,7 +29,7 @@ date: 2014-10-18
 ![daodaoliang](/res/img/blog/daodaoliang.jpg)
 
 
-[1]:/page/徐景亮.html
+[1]:/page/daodaoliang.html
 [2]:/res/download/daodaoliang.pdf
 
 
