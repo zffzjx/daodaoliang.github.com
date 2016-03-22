@@ -15,7 +15,16 @@ index: true
         <i class="fa fa-tags"></i>
         <a class="post-category" href="/page/category.html#{{ post.categories }}">{{ post.categories }}</a>
       </p>
-    <meta name="baidu_union_verify" content="c00f4cf333b7e2c734735836f8e2e96d">
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?af696705dcce4b5d8b26cc88a4adedca";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+
     </header>
     <div class="post-main">
       {{ post.content | split:'<!-- more -->'| first }}
