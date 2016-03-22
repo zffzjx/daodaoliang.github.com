@@ -11,7 +11,7 @@ date: 2014-10-18
 
 你或许可以联系到我:
 
-邮箱: [daodaoliang@yeah.net](daodaoliang@yeah.net)
+邮箱: [daodaoliang@yeah.net](mailto://daodaoliang@yeah.net)
 
 ******
 
