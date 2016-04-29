@@ -9,13 +9,13 @@ date: 2014-10-18
 喜欢研究计算机世界的运行原理，喜欢信息透明的可视化，喜欢通过coding来表达我对这个世界的看法，喜欢在听着王菲的粤语歌创作代码。
 
 
-你或许可以联系到我:
+* 你或许可以联系到我:
 
-邮箱: [daodaoliang@yeah.net](mailto:daodaoliang@yeah.net)
+<i class="fa  fa-user"></i> 邮箱: [daodaoliang@yeah.net](mailto:daodaoliang@yeah.net)
 
-若是有工作机会简历在下面：
+* 若是有工作机会简历在下面：
 
-[个人简历][1]
+<i class="fa fa-cloud-download"></i> [个人简历][1]
 
 ******
 
