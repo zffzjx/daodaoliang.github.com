@@ -18,7 +18,7 @@ date : 2016-05-11
 [TOC]
 
 
-[离线版本文档](:/res/download/windows下python服务开发.pdf)
+[离线版本文档](/res/download/windows下python服务开发.pdf)
 
 ## 1 开发环境的准备
 
@@ -30,7 +30,7 @@ date : 2016-05-11
 
 ## 2. 项目工程文件布局
 
-![pro_map](:/res/img/blog/python学习/project_map.png)
+![pro_map](/res/img/blog/python学习/project_map.png)
 
 ## 3. 服务文件源码
 
