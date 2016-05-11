@@ -30,7 +30,7 @@ date : 2016-05-11
 
 ## 2. 项目工程文件布局
 
-![pro_map](/res/img/blog/python学习/project_map.png)
+* ![pro_map](/res/img/blog/python学习/project_map.png)
 
 ## 3. 服务文件源码
 
