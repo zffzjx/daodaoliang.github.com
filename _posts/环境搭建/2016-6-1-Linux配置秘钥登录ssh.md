@@ -11,6 +11,7 @@ date : 2016-6-1
 
 	作者: aodaoliang
     原文: https://hyjk2000.github.io/2012/03/16/how-to-set-up-ssh-keys/
+	时间: 2016-6-1
     版本: 0.0.1
 	邮箱: daodaoliang@yeah.net
 
