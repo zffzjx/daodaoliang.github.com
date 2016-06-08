@@ -8,9 +8,14 @@ date: 2014-10-18
 ### 1.刀刀亮的网盘
 
 [我就是网盘连接](http://pan.baidu.com/s/1mg63JoW)
+
 [在线手册查询](http://docs.pythontab.com/)
+
 [vim手册查询](http://vim.rtorr.com/lang/zh_cn/)
+
 [知道创宇技能表V3.0](http://blog.knownsec.com/Knownsec_RD_Checklist/v3.0.html)
+
+[前端技能树](https://leohxj.gitbooks.io/front-end-database/content/html-and-css-basic/index.html)
 
 ### 2.免费的编程中文书籍索引
 
