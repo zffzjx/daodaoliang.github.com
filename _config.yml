@@ -1,5 +1,7 @@
-markdown: kramdown
+markdown: maruku
 highlighter: pygments
+markdown_ext: markdown,mkd,mkdn,md
+textile_ext: textile
 
 permalink: blog/:year/:month/:day/:title.html
 paginate: 5
