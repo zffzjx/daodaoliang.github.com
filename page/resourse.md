@@ -17,7 +17,7 @@ date: 2014-10-18
 
 [前端技能树](https://leohxj.gitbooks.io/front-end-database/content/html-and-css-basic/index.html)
 
-[文档生成] (http://www.mkdocs.org/)
+[文档生成](http://www.mkdocs.org/)
 
 ### 2.免费的编程中文书籍索引
 
