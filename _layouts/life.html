@@ -16,8 +16,8 @@
   {% include tongji.html %}
 </head>
 <body>
-  <div class="main" id="particles-js">
-    <div class="title">{{ page.title }}</div>
+  <div class="main">
+    <div class="title" id="particles-js">{{ page.title }}</div>
     {% if page.meta != false %}<div class="post-info"><i class="fa fa-clock-o"></i>&nbsp;{{ page.date | date: "%Y" }}-{{ page.date | date: "%m" }}-{{ page.date | date: "%d" }} 转载请注明出处：http://daodaoliang.github.io/ </div>{% endif %}
     <div class="content">
     {{ content }}
