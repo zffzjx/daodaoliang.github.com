@@ -23,10 +23,6 @@
 		weibo:                 # 微博地址
 		github:                # GitHub地址
 		logo:                  # logo地址
-		douban:
-			name:              # 豆瓣地址名称
-			key:               # 豆瓣API Key
-
 把以上这些选项的信息全改成你自己的，就配置完成了。
 
 ### 多说评论框
