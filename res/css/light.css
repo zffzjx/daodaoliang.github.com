@@ -276,7 +276,6 @@ a:link {
 	color:#999;
 	font-size:18px;
 	margin-top:-18px;
-	margin-bottom:30px;
 	letter-spacing:1px;
 	margin-left:30px;
 }
@@ -309,7 +308,6 @@ a:link {
 }
 #post-readall:hover {
 	background: #5873c0;
-	margin-left:33px;
 }
 .pagination {
 	color:#ccc;
