@@ -292,17 +292,15 @@ a:link {
 }
 .readall {
 	margin-top:-5px;
-	margin-left:30px;
 	margin-bottom:5px;
 }
 #post-readall {
 	color:#fff;
 	background:#759FB9;
 	font-size:17px;
-	margin-left:30px;
 	padding:6px 20px;
 	border-radius:4px;
-	border-bottom:0;
+	border-bottom:50px;
 	letter-spacing:2px;
 	transition:background 0.25s;
 	-o-transition:background 0.25s;
