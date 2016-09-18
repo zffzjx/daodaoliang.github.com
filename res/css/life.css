@@ -73,7 +73,7 @@
 	background:#F0F7FA;
 }
 h1,h2,h3,h4,h5,h6 {
-	font-family:"Microsoft YaHei",SimHei,"Ubuntu Mono",Ubuntu,"Ubuntu Light",Arial,"STHeiti",Corbel,sans-serif;
+	font-family:"Roboto Condensed", "Tauri", "Hiragino Sans GB", "Microsoft YaHei", "STHeiti", "SimSun", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", 'Segoe UI', AppleSDGothicNeo-Medium, 'Malgun Gothic', Verdana, Tahoma, sans-serif;
 	margin-top:30px;
 	letter-spacing:2px;
 	color:#525d67;
@@ -82,9 +82,9 @@ h1 {
 	font-weight:lighter;
 }
 .main {
-	font-family:"Microsoft YaHei",SimHei,"Ubuntu Mono",Ubuntu,"Ubuntu Light",Arial,"STHeiti",Corbel,sans-serif;
+	font-family:"Roboto Condensed", "Tauri", "Hiragino Sans GB", "Microsoft YaHei", "STHeiti", "SimSun", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", 'Segoe UI', AppleSDGothicNeo-Medium, 'Malgun Gothic', Verdana, Tahoma, sans-serif;
 	letter-spacing:1px;
-	line-height:1.4;
+	line-height:1.6;
 	width:65%;
 	overflow:hidden;
 	padding:20px;
@@ -194,21 +194,20 @@ sup {
 	border:0;
 }
 table {
-    margin: 10px 0 15px 0;
-    border-collapse: collapse;
+  background-color: #fafafa;
 }
-td,th { 
-    border: 1px solid #ddd;
-    padding: 3px 10px;
+table tr th,
+table tr td {
+  border: 1px solid #e6e6e6;
 }
-th {
-    padding: 5px 10px;  
+table tr:nth-child(2n) {
+  background-color: #f2f2f2;
 }
 #rocket {
 	opacity:0.8;
 }
 blockquote {
-	font-family:"Microsoft YaHei",SimHei,"Ubuntu Mono",Ubuntu,"Ubuntu Light",Arial,"STHeiti",Corbel,sans-serif;
+	font-family:"Roboto Condensed", "Tauri", "Hiragino Sans GB", "Microsoft YaHei", "STHeiti", "SimSun", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", 'Segoe UI', AppleSDGothicNeo-Medium, 'Malgun Gothic', Verdana, Tahoma, sans-serif;
 	border-left:4px solid #F1EBEB;
 	color:#777777;
 	margin:auto;
