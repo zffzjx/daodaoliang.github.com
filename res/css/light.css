@@ -242,6 +242,7 @@ a:link {
 }
 .posts {
 	margin-bottom:45px;
+	background-color:rgb(242,242,242);
 }
 .post-title {
 	color:#0090d3;
