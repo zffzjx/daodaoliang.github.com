@@ -238,7 +238,7 @@ a:link {
 .main {
 	margin-left:25%;
 	margin-top:-10px;
-	padding:0 30px 0 35px;
+	padding:0 15px 0 18px;
 }
 .posts {
 	background-color: #fff;
@@ -252,13 +252,13 @@ a:link {
 
 .post-title {
 	color:#0090d3;
-	margin-left:-3px;
+	margin-left:30px;
 	letter-spacing:2px;
 	word-break:break-all;
 }
 .post-title:hover {
 	color: #d89127;
-	margin-left:-3px;
+	margin-left:33px;
 	letter-spacing:2px;
 	word-break:break-all;
 }
@@ -278,6 +278,7 @@ a:link {
 	margin-top:-18px;
 	margin-bottom:30px;
 	letter-spacing:1px;
+	margin-left:30px;
 }
 .space {
 	margin:0 10px;
@@ -291,12 +292,14 @@ a:link {
 }
 .readall {
 	margin-top:-5px;
+	margin-left:30px;
+	margin-bottom:5px;
 }
 #post-readall {
 	color:#fff;
 	background:#759FB9;
 	font-size:17px;
-	margin-left:0;
+	margin-left:30px;
 	padding:6px 20px;
 	border-radius:4px;
 	border-bottom:0;
@@ -308,6 +311,7 @@ a:link {
 }
 #post-readall:hover {
 	background: #5873c0;
+	margin-left:33px;
 }
 .pagination {
 	color:#ccc;
@@ -376,6 +380,7 @@ footer {
 	line-height:1.8;
 	margin-top:-10px;
 	margin-bottom:15px;
+	margin-left:30px;
 }
 .post-main a strong {
 	color:#747f8c;
@@ -392,6 +397,7 @@ footer {
 }
 .post-main a:hover {
 	color:#00bb2f;
+	margin-left:33px;
 }
 a.fancybox {
 	margin:0;
