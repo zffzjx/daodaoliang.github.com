@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5,h6 {
 	color:#525d67;
 }
 .post-main h1,h2,h3,h4 {
-	margin-bottom:-10px;
+	margin-bottom:15px;
 	margin-top:25px;
 	letter-spacing:2px;
 }
@@ -377,6 +377,7 @@ footer {
 	margin-top:-10px;
 	margin-bottom:15px;
 	margin-left:30px;
+	margin-right:30px;
 }
 .post-main a strong {
 	color:#747f8c;
