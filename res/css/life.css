@@ -84,6 +84,7 @@ h1 {
 .main {
 	font-family:"Roboto Condensed", "Tauri", "Hiragino Sans GB", "Microsoft YaHei", "STHeiti", "SimSun", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", 'Segoe UI', AppleSDGothicNeo-Medium, 'Malgun Gothic', Verdana, Tahoma, sans-serif;
 	letter-spacing:1px;
+	background-color:#eadcd6;
 	line-height:1.6;
 	width:65%;
 	overflow:hidden;
@@ -287,7 +288,7 @@ pre code {
 		font-size:16px;
 	}
 	img {
-		border-radius:2px;
+		border-radius:6px;
 	}
 	code {
 		word-break:break-all;
@@ -307,10 +308,11 @@ pre code {
 	display:none;
 }
 #img {
-	margin:0;
+	margin:-10;
 	padding:0;
 	border-bottom:0;
 	padding-bottom:0;
+	border-radius:6px;
 }
 .fancybox-close,.fancybox-close:hover {
 	top:-17px;
