@@ -84,7 +84,7 @@ h1 {
 .main {
 	font-family:"Roboto Condensed", "Tauri", "Hiragino Sans GB", "Microsoft YaHei", "STHeiti", "SimSun", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", 'Segoe UI', AppleSDGothicNeo-Medium, 'Malgun Gothic', Verdana, Tahoma, sans-serif;
 	letter-spacing:1px;
-	background-color:#eadcd6;
+	background-color:rgb(242,242,242);
 	line-height:1.6;
 	width:65%;
 	overflow:hidden;
