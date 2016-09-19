@@ -114,7 +114,7 @@ blockquote {
 code {
 	font-family:"Microsoft YaHei",SimHei,"Ubuntu Mono",Ubuntu,"Ubuntu Light",Arial,"STHeiti",Corbel,sans-serif;
 	background:#f7fafb;
-	color: #008e59;
+	color: rgb(106,209,105);
 	margin:0 2px;
 	padding:0 5px;
 	border-radius:2px;
