@@ -18,7 +18,6 @@ body {
 .main {
 	font-family:"Microsoft YaHei",SimHei,"Ubuntu Mono",Ubuntu,"Ubuntu Light",Arial,"STHeiti",Corbel,sans-serif;
 	letter-spacing:1px;
-	background-color:rgba(242,242,242,200);
 	line-height:1.6;
 	width:65%;
 	overflow:hidden;
