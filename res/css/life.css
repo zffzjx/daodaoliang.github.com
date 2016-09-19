@@ -81,7 +81,6 @@ body {
 	border-radius:3px;
 	color: #333;
 	background: url(../img/body_bg.jpg) repeat top left;
-	background-color:rgba(242,242,242,200);
 }
 h1 {
 	font-weight:lighter;
@@ -91,6 +90,7 @@ h1 {
 	letter-spacing:1px;
 	line-height:1.6;
 	width:65%;
+	background-color:rgba(242,242,242,200);
 	overflow:hidden;
 	padding:20px;
 	padding-top:30px;
