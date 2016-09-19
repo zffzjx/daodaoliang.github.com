@@ -17,7 +17,37 @@ title: 心情杂货铺
 ******
 
 <div class='lifelog'>
-  <img src="http://api.photoshop.com/home_aaa9cc05ee874f8fb3929d4ce5c41105/adobe-px-assets/e71ad2ef42e34821862244b04f533fd4" width="650" height="100" />
+  <h2 id="section-1">2014年10月</h2>
+	<table>
+	  <thead>
+		<tr>
+		  <th style="text-align: center">生命戳</th>
+		  <th style="text-align: center">一图志</th>
+		</tr>
+	  </thead>
+	  <tbody>
+		<tr>
+		  <td style="text-align: center"><a href="/life/2014/10/2014-10-21.html">2014-10-21</a></td>
+		  <td style="text-align: center"><code class="highlighter-rouge">(╯3╰)</code></td>
+		</tr>
+		<tr>
+		  <td style="text-align: center"><a href="/life/2014/10/2014-10-23.html">2014-10-23</a></td>
+		  <td style="text-align: center"><code class="highlighter-rouge">(╯3╰)</code></td>
+		</tr>
+		<tr>
+		  <td style="text-align: center"><a href="/life/2014/10/2014-10-25.html">2014-10-25</a></td>
+		  <td style="text-align: center"><code class="highlighter-rouge">(╯3╰)</code></td>
+		</tr>
+		<tr>
+		  <td style="text-align: center"><a href="/life/2014/10/2014-10-28.html">2014-10-28</a></td>
+		  <td style="text-align: center"><code class="highlighter-rouge">(╯3╰)</code></td>
+		</tr>
+		<tr>
+		  <td style="text-align: center"><a href="/life/2014/10/2014-10-31.html">2014-10-31</a></td>
+		  <td style="text-align: center"><code class="highlighter-rouge">(╯3╰)</code></td>
+		</tr>
+	  </tbody>
+	</table>
 </div>
 
 ## 2014年10月
