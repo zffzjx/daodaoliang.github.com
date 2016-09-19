@@ -578,12 +578,23 @@ body {
 .ds-powered-by {
 	display:none;
 }
-#img {
-	margin:0;
-	padding:0;
-	border-bottom:0;
-	padding-bottom:0;
-	border-radius:6px;
+img {
+-webkit-box-shadow: inset 0 0 2px rgba(0,0,0,.7), inset 0 2px 0 rgba(255,255,255,.3), inset 0 -1px 0 rgba(0,0,0,.5), 0 1px 3px rgba(0,0,0,.4); 
+-moz-box-shadow: inset 0 0 2px rgba(0,0,0,.7), inset 0 2px 0 rgba(255,255,255,.3), inset 0 -1px 0 rgba(0,0,0,.5), 0 1px 3px rgba(0,0,0,.4); 
+box-shadow: inset 0 0 2px rgba(0,0,0,.7), inset 0 2px 0 rgba(255,255,255,.3), inset 0 -1px 0 rgba(0,0,0,.5), 0 1px 3px rgba(0,0,0,.4); 
+}
+img:after{
+	position: absolute; content: ' '; 
+	width: 60px; 
+	height: 25px; 
+	top: -10px; 
+	left: 50%; 
+	margin-left: -30px; 
+	border: solid 1px rgba(137,130,48,.2); 
+	background: -moz-linear-gradient(top, rgba(254,243,127,.6) 0%, rgba(240,224,54,.6) 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(254,243,127,.6)), color-stop(100%,rgba(240,224,54,.6))); 
+	background: linear-gradient(top, rgba(254,243,127,.6) 0%,rgba(240,224,54,.6) 100%); 
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 1px 0 rgba(0,0,0,.2);
 }
 .fancybox-close,.fancybox-close:hover {
 	top:-17px;

@@ -11,11 +11,11 @@ date: 2014-10-18
 
 * 你或许可以联系到我:
 
-<i class="fa  fa-user"></i> 邮箱: [daodaoliang@yeah.net](mailto:daodaoliang@yeah.net)
+> <i class="fa  fa-user"></i> 邮箱: [daodaoliang@yeah.net](mailto:daodaoliang@yeah.net)
 
 * 若是有工作机会简历在下面：
 
-<i class="fa fa-cloud-download"></i> [个人简历][1]
+> <i class="fa fa-cloud-download"></i> [个人简历][1]
 
 ******
 
