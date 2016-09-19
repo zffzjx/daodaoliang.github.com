@@ -595,7 +595,7 @@ body {
 
 
 .lifelog { 
-	display:inline-block; 
+	display:block; 
 	position:relative; 
 	margin:50px; 
 	padding:20px; 
