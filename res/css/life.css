@@ -27,6 +27,7 @@ body {
 	margin:0 auto;
 	border-radius:5px;
 	box-sizing:border-box;
+	background-color:rgba(242,242,242,200);
 }
 .title {
 	font-size:2.6rem;
