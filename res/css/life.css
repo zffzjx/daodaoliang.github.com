@@ -74,7 +74,7 @@
 }
 
 body {
-  font-family: "Roboto Condensed", "Tauri", "Hiragino Sans GB", "Microsoft YaHei", "STHeiti", "SimSun", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", 'Segoe UI', AppleSDGothicNeo-Medium, 'Malgun Gothic', Verdana, Tahoma, sans-serif;
+  font-family: "Microsoft YaHei",SimHei,"Ubuntu Mono",Ubuntu,"Ubuntu Light",Arial,"STHeiti",Corbel,sans-serif;
   font-size: 17px;
   margin-top:30px;
   letter-spacing:2px;
@@ -84,7 +84,7 @@ body {
 }
 
 .main {
-	font-family:"Roboto Condensed", "Tauri", "Hiragino Sans GB", "Microsoft YaHei", "STHeiti", "SimSun", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", 'Segoe UI', AppleSDGothicNeo-Medium, 'Malgun Gothic', Verdana, Tahoma, sans-serif;
+	font-family:"Microsoft YaHei",SimHei,"Ubuntu Mono",Ubuntu,"Ubuntu Light",Arial,"STHeiti",Corbel,sans-serif;
 	letter-spacing:1px;
 	background-color:rgb(242,242,242);
 	line-height:1.6;
@@ -189,7 +189,7 @@ blockquote {
 }
 
 code {
-	font-family:Monaco,Consolas,Menlo,"Andale Mono","Courier New","Ubuntu Mono",Arial,"Microsoft YaHei","Hiragino Sans GB",sans-serif;
+	font-family:"Microsoft YaHei",SimHei,"Ubuntu Mono",Ubuntu,"Ubuntu Light",Arial,"STHeiti",Corbel,sans-serif;
 	background:#f7fafb;
 	color: #bb1c33;
 	margin:0 2px;
@@ -198,7 +198,7 @@ code {
 	word-break:initial;
 }
 pre code {
-	font-family:Monaco,Consolas,Menlo,"Andale Mono","Courier New","Ubuntu Mono",Arial,"Microsoft YaHei","Hiragino Sans GB",sans-serif;
+	font-family:"Microsoft YaHei",SimHei,"Ubuntu Mono",Ubuntu,"Ubuntu Light",Arial,"STHeiti",Corbel,sans-serif;
 	font-size:16px;
 	background:#666;
 	-moz-border-radius:3px;
