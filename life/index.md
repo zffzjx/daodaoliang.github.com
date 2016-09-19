@@ -16,6 +16,9 @@ title: 心情杂货铺
 
 ******
 
+<div class='lifelog'>
+  <img src="http://api.photoshop.com/home_aaa9cc05ee874f8fb3929d4ce5c41105/adobe-px-assets/e71ad2ef42e34821862244b04f533fd4" width="650" height="100" />
+</div>
 
 ## 2014年10月
 
