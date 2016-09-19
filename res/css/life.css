@@ -191,10 +191,10 @@ blockquote {
 code {
 	font-family:Monaco,Consolas,Menlo,"Andale Mono","Courier New","Ubuntu Mono",Arial,"Microsoft YaHei","Hiragino Sans GB",sans-serif;
 	background:#f7fafb;
-	color: #585a57;
+	color: #bb1c33;
 	margin:0 2px;
 	padding:0 5px;
-	border-radius:5px;
+	border-radius:2px;
 	word-break:initial;
 }
 pre code {
