@@ -448,10 +448,11 @@ float: right;
 width: 420px;
 }
 
-#title {
+.title {
 padding-left: 15px;
 width: 460px;
 float: left;
+text-align:center;
 }
 div.clear {
 clear: both;
