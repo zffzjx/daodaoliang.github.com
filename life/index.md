@@ -776,6 +776,10 @@ title: 心情杂货铺
       <td style="text-align: center"><a href="/life/2016/9/2016-09-20.html">2016-09-20</a></td>
       <td style="text-align: center"><code class="highlighter-rouge">一切都好</code></td>
     </tr>
+	<tr>
+      <td style="text-align: center"><a href="/life/2016/9/2016-09-21.html">2016-09-21</a></td>
+      <td style="text-align: center"><code class="highlighter-rouge">北野武</code></td>
+    </tr>
   </tbody>
 </table>
 </div>
