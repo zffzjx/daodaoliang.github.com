@@ -781,9 +781,13 @@ title: 心情杂货铺
       <td style="text-align: center"><code class="highlighter-rouge">北野武</code></td>
     </tr>
 	<tr>
-      <td style="text-align: center"><a href="/life/2016/9/2016-09-23.html">2016-09-21</a></td>
+      <td style="text-align: center"><a href="/life/2016/9/2016-09-23.html">2016-09-23</a></td>
       <td style="text-align: center"><code class="highlighter-rouge">狐狸森林</code></td>
     </tr>
+	<tr>
+      <td style="text-align: center"><a href="/life/2016/9/2016-09-27.html">2016-09-27</a></td>
+      <td style="text-align: center"><code class="highlighter-rouge">我的名字</code></td>
+    </tr>	
   </tbody>
 </table>
 </div>
