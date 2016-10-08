@@ -790,4 +790,24 @@ title: 心情杂货铺
     </tr>	
   </tbody>
 </table>
+
+******
+
+<div class='lifelog'>
+<h2 id="section-20">2016年 10月</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">生命戳</th>
+      <th style="text-align: center">一图志</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><a href="/life/2016/10/2016-10-08.html">2016-10-08</a></td>
+      <td style="text-align: center"><code class="highlighter-rouge">楼道夕阳</code></td>
+    </tr>	
+  </tbody>
+</table>
 </div>
