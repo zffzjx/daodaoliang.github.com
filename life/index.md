@@ -809,6 +809,10 @@ title: 心情杂货铺
       <td style="text-align: center"><a href="/life/2016/10/2016-10-08.html">2016-10-08</a></td>
       <td style="text-align: center"><code class="highlighter-rouge">楼道夕阳</code></td>
     </tr>	
+	<tr>
+      <td style="text-align: center"><a href="/life/2016/10/2016-10-09.html">2016-10-09</a></td>
+      <td style="text-align: center"><code class="highlighter-rouge">星辰大海</code></td>
+    </tr>
   </tbody>
 </table>
 </div>
