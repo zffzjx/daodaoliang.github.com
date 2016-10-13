@@ -190,4 +190,4 @@ date: 2016-10-13
 * [Visual Prolog 7边练边学](http://wiki.visual-prolog.com/index.php?title=Visual_Prolog_for_Tyros_in_Chinese)
 
 ### Android
-*[Awesome Android](https://github.com/jobbole/awesome-android-cn)
+* [Awesome Android](https://github.com/jobbole/awesome-android-cn)
