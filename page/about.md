@@ -13,10 +13,6 @@ date: 2014-10-18
 
 > <i class="fa  fa-user"></i> 邮箱: [daodaoliang@yeah.net](mailto:daodaoliang@yeah.net)
 
-* 若是有工作机会简历在下面：
-
-> <i class="fa fa-cloud-download"></i> [个人简历][1]
-
 ******
 
 我曾七次鄙视我的灵魂(纪伯伦)
