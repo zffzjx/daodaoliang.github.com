@@ -66,12 +66,12 @@ supervisor安装完成后会生成三个执行程序：supervisortd、supervisor
 
 运行supervisord服务的时候，需要用 c 参数指定supervisor配置文件，如果没有显示指定，默认以此在以下目录查找：
 
-+ $CWD/supervisord.conf
-+ $CWD/etc/supervisord.conf
-+ /etc/supervisord.conf
-+ /etc/supervisor/supervisord.conf (since Supervisor 3.3.0)
-+ ../etc/supervisord.conf (Relative to the executable)
-+ ../supervisord.conf (Relative to the executable)
++ `$CWD/supervisord.conf`
++ `$CWD/etc/supervisord.conf`
++ `/etc/supervisord.conf`
++ `/etc/supervisor/supervisord.conf (since Supervisor 3.3.0)`
++ `../etc/supervisord.conf (Relative to the executable)`
++ `../supervisord.conf (Relative to the executable)`
 
 **Note：** $CWD表示运行supervisord程序的目录。
 
