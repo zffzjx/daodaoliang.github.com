@@ -1,6 +1,6 @@
 ---
 layout : life
-title : supervisor
+title : supervisor 安装与配置
 category : 环境搭建
 duoshuo : true
 date : 2016-11-02
