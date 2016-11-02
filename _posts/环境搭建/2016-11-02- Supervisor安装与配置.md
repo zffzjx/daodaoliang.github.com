@@ -39,7 +39,7 @@ Supervisor 是一个用 python 语言开发的用来在 linux 系统下进行进
 	python get-pip.py
 ```
 
-安装 supervisor
+**2.安装 supervisor**
 
 ```
 	pip install supervisor
@@ -60,10 +60,37 @@ Supervisor 是一个用 python 语言开发的用来在 linux 系统下进行进
 
 supervisor安装完成后会生成三个执行程序：supervisortd、supervisorctl、echo_supervisord_conf，分别是supervisor的守护进程服务（用于接收进程管理命令）、客户端（用于和守护进程通信，发送管理进程的指令）、生成初始配置文件程序。
 
+## 0x02 supervisor 配置
+
+**1. 配置文件生成**
+
+运行supervisord服务的时候，需要用 c 参数指定supervisor配置文件，如果没有显示指定，默认以此在以下目录查找：
+
++ $CWD/supervisord.conf
++ $CWD/etc/supervisord.conf
++ /etc/supervisord.conf
++ /etc/supervisor/supervisord.conf (since Supervisor 3.3.0)
++ ../etc/supervisord.conf (Relative to the executable)
++ ../supervisord.conf (Relative to the executable)
+
+**Note：** $CWD表示运行supervisord程序的目录。
+
+可以通过运行 echo_supervisord_conf 程序生成 supervisor 的初始化配置文件,如下所示:
+
+```
+	mkdir /etc/supervisor
+    echo_supervisord_conf > /etc/supervisor/supervisord.conf
+```
+
+**2. 配置项说明**
+
+supervisor的配置参数较多，下面介绍一下常用的参数配置，详细的配置及说明，请参考[官方文档][4]介绍。分号（;）开头的配置表示注释
+
 
 
 
 [1]:http://supervisord.org/installing.html
 [2]:https://pypi.python.org/pypi/setuptools
 [3]:https://pip.pypa.io/en/stable/installing/
+[4]:http://supervisord.org/configuration.html
 
