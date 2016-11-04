@@ -210,6 +210,9 @@ process_name=%(program_name)s
 ;进程数量,当不为1时，就是进程池的概念
 numprocs=1
 
+;进程开始的数字
+numprocs_start=1
+
 ;进程运行前，会前切换到这个目录
 directory=/tmp
 
@@ -314,7 +317,13 @@ files = relative/directory/*.ini
 ; 程序的启动目录
 directory = /home/leon/projects/usercenter
 ; 启动命令，可以看出与手动在命令行启动的命令是一样的
-command = gunicorn -c gunicorn.py wsgi:app
+command = gunicorn -c gunicorn.py --port=%(process_num)s wsgi:app
+; 程序名字
+process_name=%(program_name)s_%(process_num)02d
+; 开始数字
+numprocs_start=8110
+; 数量
+numprocs=4
 ; 在 supervisord 启动的时候也自动启动
 autostart = true
 ; 启动 5 秒后没有异常退出，就当作已经正常启动了
