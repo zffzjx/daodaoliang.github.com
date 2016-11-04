@@ -90,18 +90,88 @@ supervisor的配置参数较多，下面介绍一下常用的参数配置，详�
 
 [unix_http_server]
 
-;socket文件的路径，supervisorctl用XML_RPC和supervisord通信就是通过它进行的。如果不设置的话，supervisorctl也就不能用了,不设置的话，默认为none。非必须设置。
+;socket文件的路径，supervisorctl用XML_RPC和supervisord通信就是通过它进行的,不设置的话，默认为none。非必须设置。
 file=/tmp/supervisor.sock
 
 ;修改file的权限必须为0700,非必须设置。
-;chmod=0700
+chmod=0700
 
 ;修改file的权限的所属组为nobody:nogroup,非必需设置。
-;chown=nobody:nogroup
+chown=nobody:nogroup
 
 ;使用supervisorctl链接的时候,认证的用户,不设置的话默认不需要用户,非必需设置。
-;username=user
+username=user
 
+;和上面的用户名对应的密码，可以直接使用明码，也可以使用SHA加密如{SHA}82ab876d1387bfafe46cc1c8a2ef074eae50cb1d。
+password=123
+
+;侦听在TCP上的socket,Web Server和远程的supervisorctl都要用到他不设置的话，默认为不开启。非必须设置。
+[inet_http_server]
+
+;侦听的IP和端口，侦听所有IP用 :9001或*:9001或者0.0.0.0:9001.这个必须设置，只要上面的[inet_http_server]开启了，就必须设置它。
+port=127.0.0.1:9001
+
+;登录时的用户名。
+username=user
+
+;登录时的密码。
+password=123
+
+;定义supervisord这个服务端进程的一些参数的。
+[supervisord]
+
+;supervisord这个主进程的日志路径,默认路径$CWD/supervisord.log,$CWD是当前目录,非必需设置。
+logfile=/tmp/supervisord.log
+
+;这个是上面那个日志文件的最大的大小,当超过50M(默认值是50M)的时候,会生成一个新的日志文件。当设置为0时,表示不限制文件大小,非必须设置。
+logfile_maxbytes=50MB
+
+;日志文件保持的数量,supervisor在启动程序时,会自动创建10个buckup文件(默认10),用于log rotate当设置为0时,表示不限制文件的数量。
+logfile_backups=10
+
+;日志级别，有critical, error, warn, info, debug, trace, or blather等默认为info,非必须设置项。
+loglevel=info
+
+;supervisord的pid文件路径,默认为$CWD/supervisord.pid。
+pidfile=/tmp/supervisord.pid
+
+;如果是true,supervisord进程将在前台运行默认为false,也就是后台以守护进程运行。
+nodaemon=false
+
+;这个是最少系统空闲的文件描述符，低于这个值(默认值1024)supervisor将不会启动。系统的文件描述符在这里设置cat /proc/sys/fs/file-max。
+minfds=1024
+
+;最小可用的进程描述符,低于这个值(默认200)supervisor也将不会正常启动。ulimit  -u这个命令，可以查看linux下面用户的最大进程数。
+minprocs=200
+
+;进程创建文件的掩码,默认为022
+umask=022
+
+;这个参数可以设置一个非root用户，当我们以root用户启动supervisord之后。我这里面设置的这个用户，也可以对supervisord进行管理,默认不设置。
+user=daodaoliang
+
+;supervisord的标识符，主要是给XML_RPC用的。当你有多个supervisor的时候，而且想调用XML_RPC统一管理，就需要为每个supervisor设置不同的标识符了,默认sipervisor。
+identifier=supervisor
+
+;当supervisord作为守护进程运行的时候,设置这个参数的话,启动supervisord进程之前,会先切换到这个目录默认不设置。
+directory=/tmp
+
+;在supervisord进程启动的时候，把以前子进程产生的日志文件(路径为AUTO的情况下)清除掉,默认false,有调试需求的同学可以设置为true。
+nocleanup=true
+
+;当子进程日志路径为AUTO的时候，子进程日志文件的存放路径。默认路径是这个东西，执行下面的这个命令看看就OK了，处理的东西就默认路径
+;python -c "import tempfile;print tempfile.gettempdir()"
+childlogdir=/tmp
+
+;设置环境变量的，supervisord在linux中启动默认继承了linux的环境变量，在这里可以设置supervisord进程特有的其他环境变量。
+;supervisord启动子进程时，子进程会拷贝父进程的内存空间内容。 所以设置的这些环境变量也会被子进程继承。
+;小例子：environment=name="daodaoliang",age="26"
+environment=KEY="value"
+
+;如果设置为true，会清除子进程日志中的所有 ANSI 序列（\n,\t等）。
+strip_ansi=false
+
+[rpcinterface:supervisor]
 
 ```
 
