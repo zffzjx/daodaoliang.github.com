@@ -199,6 +199,67 @@ history_file=~/.sc_history
 ;要管理的子进程了,":"后面的是名字，最好别乱写和实际进程有点关联最好。这样的program我们可以设置一个或多个，一个program就是要被管理的一个进程
 [program:theprogramname]
 
+;要启动进程的命令路径了，可以带参数/home/test.py -a 'hehe'
+;需要注意的是，我们的command只能是那种在终端运行的进程，不能是守护进程。这个是个必须设置的项。
+command=/bin/cat
+
+;当numprocs为1时,process_name=%(program_name)s
+;当numprocs>=2时,%(program_name)s_%(process_num)02d
+process_name=%(program_name)s
+
+;进程数量,当不为1时，就是进程池的概念
+numprocs=1
+
+;进程运行前，会前切换到这个目录
+directory=/tmp
+
+;进程掩码:--- -w- -w-, 转换后rwx r-x r-x
+umask=022
+
+;优先级,值越高,最后启动,最先被关闭,默认值999
+priority=999
+
+;自动重启的情况
+;有三个选项，false,unexpected和true。
+;如果为false的时候，无论什么情况下，都不会被重新启动。
+;如果为unexpected，只有当进程的退出码不在下面的exitcodes里面定义的退出码的时候，才会被自动重启。
+;当为true的时候，只要子进程挂掉，将会被无条件的重启。
+autorestart=true
+
+;子进程气动阀多少秒后才把状态置为running
+startsecs=1
+
+;当进程启动失败后，最大尝试启动的次数。。当超过3次后，supervisor将把此进程的状态置为FAIL。
+startretries=3
+
+;和上面的的autorestart=unexpected对应。exitcodes里面的定义的退出码是expected的。
+exitcodes=0,2
+
+;进程停止信号，可以为TERM, HUP, INT, QUIT, KILL, USR1, or USR2等信号。当用设定的信号去干掉进程，退出码会被认为是expected。
+;中断:INT(类似于Ctrl+C)(kill -INT pid),退出后会将写文件或日志(推荐)
+;终止:TERM(kill -TERM pid)
+;挂起:HUP(kill -HUP pid),注意与Ctrl+Z/kill -stop pid不同
+;从容停止:QUIT(kill -QUIT pid) ;KILL, USR1, USR2其他见命令(kill -l),说明1
+;默认为TERM。
+stopsignal=TERM
+
+;当我们向子进程发送stopsignal信号后，到系统返回信息给supervisord，所等待的最大时间。 超过这个时间，supervisord会向该子进程发送一个强制kill的信号。
+;默认为10秒,非必须设置。
+stopwaitsecs=10
+
+;用于supervisord管理的子进程，这个子进程本身还有子进程。那么我们如果仅仅干掉supervisord的子进程的话，子进程的子进程有可能会变成孤儿进程.
+;所以可以设置可个选项，把整个该子进程的整个进程组都干掉。 设置为true的话，一般killasgroup也会被设置为true。
+;需要注意的是，该选项发送的是stop信号默认为false。
+;非必须设置。
+stopasgroup=false
+
+;这个和上面的stopasgroup类似，不过发送的是kill信号。
+;非必须设置
+killasgroup=false
+
+;如果supervisord是root启动，我们在这里设置这个非root用户，可以用来管理该program。
+;非必须设置项。
+user=daodaoliang
 
 ```
 
