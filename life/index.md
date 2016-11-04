@@ -839,7 +839,7 @@ title: 心情杂货铺
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center"><a href="/life/2016/10/2016-11-04.html">2016-11-04</a></td>
+      <td style="text-align: center"><a href="/life/2016/11/2016-11-04.html">2016-11-04</a></td>
       <td style="text-align: center"><code class="highlighter-rouge">祝我生日快乐</code></td>
     </tr>	
 
