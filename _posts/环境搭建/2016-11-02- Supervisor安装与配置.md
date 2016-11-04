@@ -343,6 +343,43 @@ stdout_logfile = /data/logs/usercenter_stdout.log
 	/etc/init.d/supervisord -c /etc/supervisor.conf
 ```
 
+**2.启动管理端**
+
+```
+	supervisorctl -c /etc/supervisor.conf
+```
+
+若是连接远程的则:
+
+```
+	supervisorctl -c /etc/supervisor.conf -s "http://114.114.114.114:9001"
+```
+
+**3.管理服务**
+
+```
+	# 查看服务状态
+	status
+
+    # 关闭 usercenter 程序
+    stop usercenter
+
+	# 启动 usercenter 程序
+	start usercenter
+
+    # 重启 usercenter 程序
+    restart usercenter
+
+	# 读取有更新的的配置文件，不会启动新程序
+    reread
+
+    # 重启启动远程supervisord
+    reload
+
+    # 更新配置文件，若有新的则启动，若删除了则停止
+    update
+```
+
 
 [1]:http://supervisord.org/installing.html
 [2]:https://pypi.python.org/pypi/setuptools
