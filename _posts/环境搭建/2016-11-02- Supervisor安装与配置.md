@@ -364,11 +364,20 @@ stdout_logfile = /data/logs/usercenter_stdout.log
     # 关闭 usercenter 程序
     stop usercenter
 
+    # 停止所有程序
+    stop all
+
 	# 启动 usercenter 程序
 	start usercenter
 
+	# 启动所有程序
+    start all
+
     # 重启 usercenter 程序
     restart usercenter
+
+	# 重启所有程序
+    restart all
 
 	# 读取有更新的的配置文件，不会启动新程序
     reread
