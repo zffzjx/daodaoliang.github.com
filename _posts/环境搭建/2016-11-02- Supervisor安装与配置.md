@@ -173,6 +173,33 @@ strip_ansi=false
 
 [rpcinterface:supervisor]
 
+supervisor.rpcinterface_factory = supervisor.rpcinterface:make_main_rpcinterface
+
+;针对supervisorctl的一些配置
+[supervisorctl]
+
+;supervisorctl本地连接supervisord的时候，本地UNIX socket路径，注意这个是和前面的[unix_http_server]对应的默认值就是unix:///tmp/supervisor.sock
+serverurl=unix:///tmp/supervisor.sock
+
+;supervisorctl远程连接supervisord的时候，用到的TCP socket路径,注意这个和前面的[inet_http_server]对应默认就是http://127.0.0.1:9001
+serverurl=http://127.0.0.1:9001
+
+;用户名
+username=daodaoliang
+
+;密码
+password=123
+
+;输入用户名密码时候的提示符
+prompt=iamnami
+
+;这个参数和shell中的history类似，我们可以用上下键来查找前面执行过的命令默认是no file,所以我们想要有这种功能，必须指定一个文件
+history_file=~/.sc_history
+
+;要管理的子进程了,":"后面的是名字，最好别乱写和实际进程有点关联最好。这样的program我们可以设置一个或多个，一个program就是要被管理的一个进程
+[program:theprogramname]
+
+
 ```
 
 
