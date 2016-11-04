@@ -219,6 +219,9 @@ umask=022
 ;优先级,值越高,最后启动,最先被关闭,默认值999
 priority=999
 
+;如果为true则程序在supervisord启动后将会启动
+autostart=true
+
 ;自动重启的情况
 ;有三个选项，false,unexpected和true。
 ;如果为false的时候，无论什么情况下，都不会被重新启动。
@@ -261,8 +264,84 @@ killasgroup=false
 ;非必须设置项。
 user=daodaoliang
 
+;如果为true，则stderr的日志会被写入stdout日志文件中
+redirect_stderr=true
+
+;子进程的stdout的日志路径，可以指定路径，AUTO，none等三个选项
+;设置为none的话，将没有日志产生。
+;设置为AUTO的话，将随机找一个地方生成日志文件,而且当supervisord重新启动的时候,以前的日志文件会被清空。
+;当 redirect_stderr=true的时候，sterr也会写进这个日志文件。
+stdout_logfile=/a/path
+
+;日志文件最大大小，和[supervisord]中定义的一样。默认为50
+stdout_logfile_maxbytes=1MB
+
+;和[supervisord]定义的一样。默认10
+stdout_logfile_backups=10
+
+;这个东西是设定capture管道的大小，当值不为0的时候，子进程可以从stdout发送信息，而supervisor可以根据信息，发送相应的event。
+;默认为0，为0的时候表达关闭管道。
+;非必须项
+stdout_capture_maxbytes=1MB
+
+;当设置为ture的时候,当子进程由stdout向文件描述符中写日志的时候,将触发supervisord发送PROCESS_LOG_STDOUT类型的event.
+;默认为false
+;非必须设置
+stdout_events_enabled=false
+
+;这个东西是设置stderr写的日志路径，当redirect_stderr=true。这个就不用设置了，设置了也是白搭。因为它会被写入stdout_logfile的同一个文件中默认为AUTO。
+;也就是随便找个地存,supervisord重启被清空。
+;非必须设置
+stderr_logfile=/a/path
+
+;这个是该子进程的环境变量，和别的子进程是不共享的
+environment=A="1",B="2"
+
+serverurl=AUTO
+
+;当我们要管理的进程很多的时候，写在一个文件里面就有点大了。我们可以把配置信息写到多个文件中，然后include过来。
+[include]
+
+;例如/an/absolute/filename.conf /an/absolute/*.conf foo.conf config??.conf
+files = relative/directory/*.ini
+
 ```
 
+**3.例子**
+
+```ini
+[program:usercenter]
+; 程序的启动目录
+directory = /home/leon/projects/usercenter
+; 启动命令，可以看出与手动在命令行启动的命令是一样的
+command = gunicorn -c gunicorn.py wsgi:app
+; 在 supervisord 启动的时候也自动启动
+autostart = true
+; 启动 5 秒后没有异常退出，就当作已经正常启动了
+startsecs = 5
+; 程序异常退出后自动重启
+autorestart = true
+; 启动失败自动重试次数，默认是 3
+startretries = 3
+; 用哪个用户启动
+user = leon
+; 把 stderr 重定向到 stdout，默认 false
+redirect_stderr = true
+; stdout 日志文件大小，默认 50MB
+stdout_logfile_maxbytes = 20MB
+; stdout 日志文件备份数
+stdout_logfile_backups = 20
+; stdout 日志文件，需要注意当指定目录不存在时无法正常启动，所以需要手动创建目录（supervisord 会自动创建日志文件）
+stdout_logfile = /data/logs/usercenter_stdout.log
+```
+
+## 0x03 supervisord 启动和维护
+
+**1.启动服务**
+
+```
+	/etc/init.d/supervisord -c /etc/supervisor.conf
+```
 
 
 [1]:http://supervisord.org/installing.html
