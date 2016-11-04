@@ -73,9 +73,9 @@ supervisor安装完成后会生成三个执行程序：supervisortd、supervisor
 + `../etc/supervisord.conf (Relative to the executable)`
 + `../supervisord.conf (Relative to the executable)`
 
-**Note：** $CWD表示运行supervisord程序的目录。
+**Note：** `$CWD` 表示运行 `supervisord` 程序的目录。
 
-可以通过运行 echo_supervisord_conf 程序生成 supervisor 的初始化配置文件,如下所示:
+可以通过运行 `echo_supervisord_conf` 程序生成 `supervisor` 的初始化配置文件,如下所示:
 
 ```
 	mkdir /etc/supervisor
@@ -86,6 +86,15 @@ supervisor安装完成后会生成三个执行程序：supervisortd、supervisor
 
 supervisor的配置参数较多，下面介绍一下常用的参数配置，详细的配置及说明，请参考[官方文档][4]介绍。分号（;）开头的配置表示注释
 
+```
+
+[unix_http_server]
+file=/tmp/supervisor.sock				;socket文件的路径，supervisorctl用XML_RPC和supervisord通信就是通过它进行的。如果不设置的话，supervisorctl也就不能用了,不设置的话，默认为none。非必须设置。
+;chmod=0700								;修改file的权限必须为0700,非必须设置。
+;chown=nobody:nogroup					;修改file的权限的所属组为nobody:nogroup,非必需设置。
+;username=user							;使用supervisorctl链接的时候,认证的用户,不设置的话默认不需要用户,非必需设置。
+
+```
 
 
 
