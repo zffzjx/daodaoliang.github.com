@@ -184,5 +184,5 @@ date: 2016-03-21
 [3]:http://daodaoliang.github.io/
 [4]:http://daodaoliang.github.io/
 [5]:http://www.jovision.com/Service/DownContentView.aspx?id=295
-[6]:/res/img/resume.jpg
+[6]:/res/img/resume.png
 [7]:http://wi-beacon.com
