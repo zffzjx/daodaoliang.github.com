@@ -16,11 +16,11 @@ date: 2016-03-21
 |院校 |山东政法学院|专业|信息管理与信息系统|
 |籍贯 |山东省临沂市|手机|18560231104|
 |邮箱 |`88341189@qq.com` 或者 `daodaoliang@yeah.net` | QQ|`88341189`|
-| Github |https://github.com/daodaoliang| | |
+| GitHub |https://github.com/daodaoliang| | |
 
 ### <i class="fa fa-eye"></i> 自我评价
 
-四年半的工作经验,五年半开发经验.热爱Linux、热爱C++、热爱Qt、热爱python.喜欢研究计算机世界的运行原理。参与翻译出版《PyQt高级编程》一书，拥有《无线局域网的入侵检测系统》的共同专利权，维护NBase系列的开源软件；
+**四年半的工作经验,五年半开发经验.热爱Linux、热爱C++、热爱Qt、热爱python.喜欢研究计算机世界的运行原理。参与翻译出版《PyQt高级编程》一书，拥有《无线局域网的入侵检测系统》的共同专利权，维护NBase系列的开源软件；**
 
 ### <i class="fa fa-binoculars"></i> 求职目标
 
