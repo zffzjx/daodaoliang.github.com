@@ -5,8 +5,6 @@ duoshuo: true
 date: 2016-03-21
 ---
 
-## 个人简历
-
 ******
 
  <i class="fa fa-cloud-download"></i> [简历电子版-下载地址][2]
