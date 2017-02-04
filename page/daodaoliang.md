@@ -58,6 +58,18 @@ date: 2016-03-21
 ### <i class="fa fa-certificate"></i> 项目经历
 
 
+#### <i class="fa fa-dot-circle-o"></i> 易餐宝店铺助手
+
+暂无-占位
+
+#### <i class="fa fa-dot-circle-o"></i> 易餐宝点餐中心
+
+暂无-占位
+
+#### <i class="fa fa-dot-circle-o"></i> 易餐宝会员营销助手
+
+暂无-占位
+
 #### <i class="fa fa-dot-circle-o"></i> 基于邮件的异步画像服务
 
 * **软件环境:** `CentOS`
