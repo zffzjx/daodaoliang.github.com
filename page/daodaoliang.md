@@ -16,7 +16,7 @@ date: 2016-03-21
 |院校 |山东政法学院|专业|信息管理与信息系统|
 |籍贯 |山东省临沂市|手机|18560231104|
 |邮箱 |`88341189@qq.com` 或者 `daodaoliang@yeah.net` | QQ|`88341189`|
-|github |https://github.com/daodaoliang| | |
+| Github |https://github.com/daodaoliang| | |
 
 ### <i class="fa fa-eye"></i> 自我评价
 
@@ -36,16 +36,16 @@ date: 2016-03-21
 
 ### <i class="fa fa-keyboard-o"></i> 专业技能
 
-* C++(Qt) 四年的技能学习使用时间，可熟练使用；
-* Python(2.7.X) 两年半的学习使用时间，可熟练使用；
-* PHP 半年的学习使用时间，可编写一般难度的程序；
-* MySql 三年的学习使用时间，可较为熟练的使用；
-* Git/SVN 四年的使用时间，常年混迹于GitHub和OSChina；
-* Linux(Centos、Debian、Ubuntu、BTrack、Kali、OpenWRT等) 四年的使用时间，可处理一般难度的系统运维的工作；
-* Redis 两年年的学习使用时间，可较为熟练的使用；
-* MSSql 一年的学习使用时间；
-* Shell 半年的使用时间，对照手册可编写中等难度的脚本；
-* HTML、JavaScript、Java、Golang、Sphinx等等，都有浅显的学习；
+* **C++(Qt)** 四年的技能学习使用时间，可熟练使用；
+* **Python(2.7.X)** 两年半的学习使用时间，可熟练使用；
+* **PHP** 半年的学习使用时间，可编写一般难度的程序；
+* **MySql** 三年的学习使用时间，可较为熟练的使用；
+* **Git/SVN** 四年的使用时间，常年混迹于GitHub和OSChina；
+* **Linux** (Centos、Debian、Ubuntu、BTrack、Kali、OpenWRT等) 四年的使用时间，可处理一般难度的系统运维的工作；
+* **Redis** 两年年的学习使用时间，可较为熟练的使用；
+* **MSSql** 一年的学习使用时间；
+* **Shell** 半年的使用时间，对照手册可编写中等难度的脚本；
+* **HTML、JavaScript、Java、Golang、Sphinx** 等等，都有浅显的学习；
 
 ### <i class="fa fa-calendar"></i> 实践经历
 
