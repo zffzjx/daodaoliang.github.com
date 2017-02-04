@@ -161,7 +161,9 @@ date: 2016-03-21
 |2009/6 | 学校综合奖学金|二等|
 
 
-<i class="fa fa-cloud-download"></i> [简历电子版-下载地址][2]
+<i class="fa fa-cloud-download"></i> [简历PDF版本-下载地址][2]
+
+![个人简历][6]
 
 
 ******
@@ -170,3 +172,4 @@ date: 2016-03-21
 [3]:http://daodaoliang.github.io/
 [4]:http://daodaoliang.github.io/
 [5]:http://www.jovision.com/Service/DownContentView.aspx?id=295
+[6]:/res/img/resume.png
