@@ -135,9 +135,11 @@ date: 2016-03-21
 
 ### <i class="fa fa-address-card"></i> 个人简历获取
 
-<i class="fa fa-cloud-download"></i> [个人简历PNG版本-点我开始下载][2]
+<i class="fa fa-cloud-download"></i> [个人简历PNG版本-点我开始下载][1]
 
 <i class="fa fa-cloud-download"></i> [个人简历PDF版本-点我开始下载][2]
+
+<i class="fa fa-cloud-download"></i> [部分可视化作品DEMO-点我开始下载][10]
 
 ![个人简历][6]
 
@@ -152,3 +154,4 @@ date: 2016-03-21
 [7]:http://wi-beacon.com
 [8]:http://cusflo.com
 [9]:http://baike.baidu.com/link?url=OqR_2lJnAGQwdWLfq0x94csGHgsilu8e-EAZ0W6iFOh0A6gKaHyMwojLZYA96oGsFJDf8jIxtIzAwUtXop7_TK
+[10]:http://pan.baidu.com/s/1dE7ByvB
