@@ -133,14 +133,17 @@ date: 2016-03-21
 |2010/3 | 优秀学生干部|系级|
 |2009/6 | 学校综合奖学金|二等|
 
+### <i class="fa address-card"></i> 个人简历获取
 
-<i class="fa fa-cloud-download"></i> [简历PDF版本-下载地址][2]
+<i class="fa fa-cloud-download"></i> [个人简历PNG版本-点我开始下载][2]
+
+<i class="fa fa-cloud-download"></i> [个人简历PDF版本-点我开始下载][2]
 
 ![个人简历][6]
 
 
 ******
-[1]:http://pan.baidu.com/s/1i3uvQWP
+[1]:/res/download/daodaoliang.png
 [2]:/res/download/daodaoliang.pdf
 [3]:http://daodaoliang.github.io/
 [4]:http://daodaoliang.github.io/
