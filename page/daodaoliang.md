@@ -7,7 +7,7 @@ date: 2016-03-21
 
 ******
 
-### <i class="fa  fa-user"></i> 个人概况
+### <i class="fa  fa-address-card"></i> 个人概况
 
 |||||
 | ------: |:------|------: |  :------ |
@@ -133,7 +133,7 @@ date: 2016-03-21
 |2010/3 | 优秀学生干部|系级|
 |2009/6 | 学校综合奖学金|二等|
 
-### <i class="fa address-card"></i> 个人简历获取
+### <i class="fa fa-telegram"></i> 个人简历获取
 
 <i class="fa fa-cloud-download"></i> [个人简历PNG版本-点我开始下载][2]
 
