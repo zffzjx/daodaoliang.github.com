@@ -1,7 +1,7 @@
 ---
 layout: life
 title: 个人简历
-duoshuo: true
+duoshuo: false
 date: 2016-03-21
 ---
 
