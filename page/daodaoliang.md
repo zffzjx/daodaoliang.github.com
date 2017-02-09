@@ -22,9 +22,9 @@ date: 2016-03-21
 
 **五年的工作经验，五年半开发经验.热爱Linux、热爱C++、热爱Qt、热爱python.喜欢研究计算机世界的运行原理。参与翻译出版《PyQt高级编程》一书，拥有《无线局域网的入侵检测系统》的共同专利权，维护NBase系列的开源软件；**
 
-**个人博客: http://daodaoliang.com**
+**个人博客: [http://daodaoliang.com][3]**
 
-**GitHub: https://github.com/daodaoliang**
+**GitHub: [https://github.com/daodaoliang][4]**
 
 ### <i class="fa fa-binoculars"></i> 求职目标
 
@@ -149,8 +149,8 @@ date: 2016-03-21
 ******
 [1]:/res/download/daodaoliang.png
 [2]:/res/download/daodaoliang.pdf
-[3]:http://daodaoliang.github.io/
-[4]:http://daodaoliang.github.io/
+[3]:http://daodaoliang.com
+[4]:https://github.com/daodaoliang
 [5]:http://www.jovision.com/Service/DownContentView.aspx?id=295
 [6]:/res/img/resume.png
 [7]:http://wi-beacon.com
