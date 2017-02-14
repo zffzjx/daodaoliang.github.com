@@ -22,9 +22,9 @@ date: 2016-03-21
 
 **五年的工作经验，五年半开发经验.热爱Linux、热爱C++、热爱Qt、热爱python.喜欢研究计算机世界的运行原理。参与翻译出版《PyQt高级编程》一书，拥有《无线局域网的入侵检测系统》的共同专利权，维护NBase系列的开源软件；**
 
-**个人博客: http://daodaoliang.com**
+**个人博客: [http://daodaoliang.com][3]**
 
-**GitHub: https://github.com/daodaoliang**
+**GitHub: [https://github.com/daodaoliang][4]**
 
 ### <i class="fa fa-binoculars"></i> 求职目标
 
@@ -64,7 +64,7 @@ date: 2016-03-21
 
 * **软件环境:** `Windows`
 * **硬件环境:** `普通PC + 餐饮行业所需设备`
-* **开发环境:** `Qt + C++ + JavaScript + Python + MySql +Redis+ NginxNginx + Sqlite等`
+* **开发环境:** `Qt + C++ + JavaScript + Python + MySql +Redis+ Nginx + Sqlite等`
 * **项目简述:** 一套餐饮的解决方案，前期的连锁店铺选址，中期的线上线下点餐、财务报表、原料进销存、会员营销，后期的运营报表、基于用户数据挖掘分析的运营策略咨询，项目二期已经上线，服务于旗鼓村、普洱香、牛本家、董小姐等等连锁品牌；
 * **责任简述:** 前期产品方案设计，易餐宝店铺助手(网络版)的研发，易餐宝点餐中心的共同研发，易餐宝会员营销助手的研发，在线营运报表的研发；
 
@@ -135,7 +135,7 @@ date: 2016-03-21
 |2010/3 | 优秀学生干部|系级|
 |2009/6 | 学校综合奖学金|二等|
 
-### <i class="fa fa-address-card"></i> 个人简历获取
+### <i class="fa fa-address-book"></i> 个人简历获取
 
 <i class="fa fa-cloud-download"></i> [个人简历PNG版本-点我开始下载][1]
 
@@ -149,8 +149,8 @@ date: 2016-03-21
 ******
 [1]:/res/download/daodaoliang.png
 [2]:/res/download/daodaoliang.pdf
-[3]:http://daodaoliang.github.io/
-[4]:http://daodaoliang.github.io/
+[3]:http://daodaoliang.com
+[4]:https://github.com/daodaoliang
 [5]:http://www.jovision.com/Service/DownContentView.aspx?id=295
 [6]:/res/img/resume.png
 [7]:http://wi-beacon.com
