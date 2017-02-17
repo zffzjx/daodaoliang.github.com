@@ -44,8 +44,54 @@ date : 2017-02-17
 
 一般用方式一就可以完成升级安装，但是有时候会出现一些莫名其妙的错误，比如说是`segment fault`之类的错误，这个时候我只能用源码的方式进行编译安装。
 
+首先`NodeJs`使用`C++`语言编写的，所以在编译源码时需要用到gcc-g++编译器，目前最新的`NodeJs`代码用到了`c11`的一些特性，所以对编译器的版本要求在4.8+所以首先要对编译器进行安装和升级。
 
+ * 安装并升级编译器到4.8+
+ 
+ ```
+   yum install gcc-c++ openssl-devel
+   wget http://people.centos.org/tru/devtools-2/devtools-2.repo
+   mv devtools-2.repo /etc/yum.repos.d
+   yum install devtoolset-2-gcc devtoolset-2-binutils devtoolset-2-gcc-c++
+ ```
+ 
+ 三个安装包被安装在`/opt/rh/devtoolset-2/root/`中
+ 
+ 更新软连接:
+ 
+ ```
+  mv /usr/bin/gcc /usr/bin/gcc-4.4.7 
+  mv /usr/bin/g++ /usr/bin/g++-4.4.7 
+  mv /usr/bin/c++ /usr/bin/c++-4.4.7 
+  ln -s /opt/rh/devtoolset-2/root/usr/bin/gcc /usr/bin/gcc 
+  ln -s /opt/rh/devtoolset-2/root/usr/bin/c++ /usr/bin/c++ 
+  ln -s /opt/rh/devtoolset-2/root/usr/bin/g++ /usr/bin/g++ 
+  gcc --version
+ ```
   
+  * 检查核对`python`版本
+  
+  `nodejs`需要python版本在2.6版本以上，我们需要检查版本是否对应符合，如果不符合那就进行一下升级；
+  
+  * 编译安装最新版本的`nodejs`
+  
+  ```
+   cd /usr/local/src
+   wget http://nodejs.org/dist/node-latest.tar.gz
+   tar -zxvf node-latest.tar.gz
+   cd node-v0.12.7
+   ./configure
+   make && make install
+  ```
+  
+ 不管是用哪种方式进行升级都需要很长的时间，休息一会等着就好了，升级完成后查看一下版本信息；
+ 
+ ```
+	node -v
+ ```
+ 
+ **PS:** 在升级的过程中把`node` 运行的相关程序要关闭，不然会在编译时由于文件占用的关系产生错误.
+   
   
 
 [1]:https://nodejs.org/en/
