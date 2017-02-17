@@ -40,7 +40,24 @@ date : 2017-02-17
     n 0.10.23
   ```
 
-### 0x02 用源码的方式进行编译安装
+### 0x04 用编译好的二进制文件进行安装更新
+
+  在官网下载相关系统平台下面编译好的二进制包。
+  
+  ```
+    cd node-v0.10.28-linux-x64/bin
+    ls
+    ./node -v
+  ```
+  
+  上面的二进制文件就是编译好的新版本的`node`文件，不过并没有添加到环境变量里面，所以可以通过下面这种方式进行设置为全局变量
+  
+  ```
+   ln -s /home/kun/mysofltware/node-v0.10.28-linux-x64/bin/node /usr/local/bin/node
+   ln -s /home/kun/mysofltware/node-v0.10.28-linux-x64/bin/npm /usr/local/bin/npm
+  ```
+  
+### 0x03 用源码的方式进行编译安装
 
 一般用方式一就可以完成升级安装，但是有时候会出现一些莫名其妙的错误，比如说是`segment fault`之类的错误，这个时候我只能用源码的方式进行编译安装。
 
