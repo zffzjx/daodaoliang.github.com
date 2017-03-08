@@ -20,7 +20,7 @@ itsdangerous内部默认使用了HMAC和SHA1来签名，基于 Django 签名模�
 
 你可以从 `PyPI` 上直接安装这个库：
 
-```
+```sh
     pip install itsdangerous
 ```
 
@@ -34,7 +34,7 @@ itsdangerous内部默认使用了HMAC和SHA1来签名，基于 Django 签名模�
 
 最基本的接口是签名接口， `Signer` 类可以用来将一个签名附加到指定 string 上：
 
-```
+```python
     from itsdangerous import Signer
     s = Signer('secret-key')
     s.sign('my string')
@@ -43,7 +43,7 @@ itsdangerous内部默认使用了HMAC和SHA1来签名，基于 Django 签名模�
 
 签名会被加在字符串尾部，中间由句号 (.)分隔。验证字符串，使用 unsign() 方法：
 
-```
+```python
     s.unsign('my string.wh6tMHxLgJqB6oY1uT73iMlyrOA')
     'my string'
 ```
@@ -52,7 +52,7 @@ itsdangerous内部默认使用了HMAC和SHA1来签名，基于 Django 签名模�
 
 如果反签名失败了，将得到一个异常：
 
-```
+```python
     s.unsign('my string.wh6tMHxLgJqB6oY1uT73iMlyrOX')
     
     Traceback (most recent call last):
@@ -64,7 +64,7 @@ itsdangerous内部默认使用了HMAC和SHA1来签名，基于 Django 签名模�
 
 如果你想要一个可以过期的签名，可以使用 `TimestampSigner` 类，它会加入时间戳信息并签名。在反签名时，你可以验证时间戳就没有过期；
 
-```
+```python
     from itsdangerous import TimestampSigner
     s = TimestampSigner('secret-key')
     string = s.sign('foo')
@@ -79,7 +79,7 @@ itsdangerous内部默认使用了HMAC和SHA1来签名，基于 Django 签名模�
 
 因为字符串难以处理，本模块也提供了一个与json或pickle类似的序列化接口.(它内部默认使用simplejson，但是可以通过子类进行修改),这个 `Serializer` 类实现了:
 
-```
+```python
     from itsdangerous import Serializer
     s = Serializer('secret-key')
     s.dumps([1, 2, 3, 4])
@@ -88,7 +88,7 @@ itsdangerous内部默认使用了HMAC和SHA1来签名，基于 Django 签名模�
 
 它当然也可以加载数据:
 
-```
+```python
     s.loads('[1, 2, 3, 4].r7R9RhGgDPvvWl3iNzLuIIfELmo')
     [1, 2, 3, 4]
 ```
@@ -99,7 +99,7 @@ itsdangerous内部默认使用了HMAC和SHA1来签名，基于 Django 签名模�
 
 如果只能向一个字符受限的环境中传递可信的字符串的话，这个功能将会十分有用。`itsdangerous` 提供了一个 `URL` 安全序列化工具:
 
-```
+```python
     from itsdangerous import URLSafeSerializer
     s = URLSafeSerializer('secret-key')
     s.dumps([1, 2, 3, 4])
@@ -113,7 +113,7 @@ itsdangerous内部默认使用了HMAC和SHA1来签名，基于 Django 签名模�
 
 从“itsdangerous” 0.18版本开始，也支持了JSON Web签名。它们的工作方式与原有的URL安全序列化器差不多，但是会根据当前JSON Web签名（JWS）草案（10） [draft-ietf-jose-json-web-signature] 来生成header。
 
-```
+```python
     from itsdangerous import JSONWebSignatureSerializer
     s = JSONWebSignatureSerializer('secret-key')
     s.dumps({'x': 42})
@@ -122,7 +122,7 @@ itsdangerous内部默认使用了HMAC和SHA1来签名，基于 Django 签名模�
 
 在将值加载回来时，默认会像其他序列化器一样，不会返回header。但是你可以通过传入 return_header=True 参数来得到header，定制的header会在序列化的数据外层:
 
-```
+```python
     s.dumps(0, header_fields={'v': 1})
     'eyJhbGciOiJIUzI1NiIsInYiOjF9.MA.wT-RZI9YU06R919VBdAfTLn82_iIQD70J_j-3F4z_aM'
     
@@ -140,7 +140,7 @@ itsdangerous目前只提供HMAC SHA的派生算法以及不使用算法，不支
 
 假设你想签名两个链接。你的系统有个激活链接，用来激活一个用户账户，并且你有一个升级链接，可以让一个用户账户升级为付费用户，这两个链接使用email发送。在这两种情况下，如果你签名的都是用户ID，那么该用户可以在激活账户和升级账户时，复用URL的可变部分。现在你可以在你签名的地方加上更多信息（如升级或激活的意图），但是你也可以用不同的盐：
 
-```
+```python
     s1 = URLSafeSerializer('secret', salt='activate-salt')
     s1.dumps(42)
     'NDI.kubVFOOugP5PAIfEqLJbXQbfTxs'
@@ -157,7 +157,7 @@ itsdangerous目前只提供HMAC SHA的派生算法以及不使用算法，不支
 
 只有使用相同盐的序列化器才能成功把值加载出来：
 
-```
+```python
     s2.loads(s2.dumps(42))
     42
 ```
@@ -168,7 +168,7 @@ itsdangerous目前只提供HMAC SHA的派生算法以及不使用算法，不支
 
 示例用法:
 
-```
+```python
     from itsdangerous import URLSafeSerializer, BadSignature, BadData
     s = URLSafeSerializer('secret-key')
     decoded_payload = None
@@ -189,7 +189,7 @@ itsdangerous目前只提供HMAC SHA的派生算法以及不使用算法，不支
 
 如果你不想检查到底是哪里出错了，你也可以使用不安全的加载方式:
 
-```
+```python
     from itsdangerous import URLSafeSerializer
     s = URLSafeSerializer('secret-key')
     sig_okay, payload = s.loads_unsafe(data)

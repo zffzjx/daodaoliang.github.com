@@ -47,7 +47,7 @@ psdash是一款linux下的系统资源监控的web版本，和其相似的还有
 
 * 直接测试
 
-```
+```sh
 	sudo psdash -p 5000 -l '/var/log/*.log'
 ```
 
