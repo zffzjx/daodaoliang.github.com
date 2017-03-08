@@ -186,25 +186,25 @@
   color: #f92672;
 }
 div[class="highlight"] > pre > code[class*="language-"] {
-  background:black;
+  background:#666666;
   color:#f8f8f2;
 }
 div[class="highlight"] > pre {
-  background:black;
+  background:#666666;
 }
 figure[class="highlight"] > pre > code[class*="language-"] {
   text-align:left;
-  background:black;
+  background:#666666;
   color:#f8f8f2;
 }
 figure[class="highlight"] > pre > code[class*="language-"] td > pre{
   text-align:left;
-  background:black;
+  background:#666666;
   color:#f8f8f2;
 }
 figure[class="highlight"] > pre {
   text-align:left;
-  background:black;
+  background:#666666;
 }
 
 div[class="highlighter-rouge"] > pre[class="highlight"] > code{
