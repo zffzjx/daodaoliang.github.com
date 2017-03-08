@@ -1,7 +1,7 @@
 ---
 layout : life
 title: 最为常用的HASH算法
-category : linux学习
+category : c++学习
 duoshuo: true
 date : 2017-03-08
 ---
