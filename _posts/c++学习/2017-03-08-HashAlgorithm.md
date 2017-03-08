@@ -16,7 +16,7 @@ date : 2017-03-08
 
 ### 1.DJB HASH算法
 
-```
+~~~
 /* the famous DJB Hash Function for strings */
 unsigned int DJBHash(char *str)
 {
@@ -28,7 +28,7 @@ unsigned int DJBHash(char *str)
     hash &= ~(1 << 31); /* strip the highest bit */
     return hash;
  }
-```
+~~~
 
 ### 2.murmurhash2
 
