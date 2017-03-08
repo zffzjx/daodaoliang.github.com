@@ -3,12 +3,12 @@ layout : life
 title: 最为常用的HASH算法
 category : linux学习
 duoshuo: true
-date : 2017-02-01
+date : 2017-03-08
 ---
 
         作者: daodaoliang
         版本: V 0.0.1
-        日期: 2017年02月01日
+        日期: 2017年03月08日
 
  murmurhash2算法 和 DJB Hash算法是目前最流行的hash算法
 
