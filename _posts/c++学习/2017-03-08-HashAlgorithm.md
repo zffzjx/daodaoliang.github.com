@@ -16,7 +16,7 @@ date : 2017-03-08
 
 ### 1.DJB HASH算法
 
-~~~
+~~~c++
 /* the famous DJB Hash Function for strings */
 unsigned int DJBHash(char *str)
 {
@@ -32,7 +32,7 @@ unsigned int DJBHash(char *str)
 
 ### 2.murmurhash2
 
-```
+```c++
 uint32_t
 murmur_hash2(char *data, size_t len)
 {  
