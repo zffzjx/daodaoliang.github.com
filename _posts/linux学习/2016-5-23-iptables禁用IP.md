@@ -18,7 +18,7 @@ date : 2016-5-23
 
 ### 0x01 确保服务启动
 
-```
+```sh
     service iptables status
     /etc/init.d/iptables stop
     /etc/init.d/iptables start
@@ -28,13 +28,13 @@ date : 2016-5-23
 
 **禁用单个IP:**
 
-```
+```sh
     iptables -I INPUT -s 114.113.112.111 -j DROP
 ```
 
 **禁用IP段的命令:**
 
-```
+```sh
     iptables -I INPUT -s 114.113.0.0/16 -j DROP
     iptables -I INPUT -s 114.112.0.0/16 -j DROP
     iptables -I INPUT -s 114.111.1.0/24 -j DROP
@@ -43,7 +43,7 @@ date : 2016-5-23
 
 **禁用整个IP段的命令:**
 
-```
+```sh
     iptables -I INPUT -s 114.0.0.0/8 -j DROP
 ```
 
@@ -59,12 +59,12 @@ date : 2016-5-23
 
 ### 0x04 开启端口
 
-```
+```sh
     iptables -I INPUT -p tcp --dport 80 -j ACCEPT
     iptables -I INPUT -p tcp --dport 22 -j ACCEPT
 ```
 
-```
+```sh
     /etc/rc.d/init.d/iptables save
     or
     iptables-save
@@ -72,12 +72,12 @@ date : 2016-5-23
 
 ### 0x05 关闭端口
 
-```
+```sh
     iptables -I INPUT -p tcp --dport 80 -j DROP
     iptables -I INPUT -p tcp --dport 22 -j DROP
 ```
 
-```
+```sh
     /etc/rc.d/init.d/iptables save
     or
     iptables-save
@@ -85,7 +85,7 @@ date : 2016-5-23
 
 ### 0x06 简单例子
 
-````
+````sh
     *filter
     :INPUT ACCEPT [0:0]
     :FORWARD ACCEPT [0:0]

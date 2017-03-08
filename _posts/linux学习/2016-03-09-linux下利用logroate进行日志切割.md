@@ -34,7 +34,7 @@ The logrotate utility is designed to simplify the administration of log files on
 
 **系统配置文件：**
 
-```
+```sh
     # see "man logrotate" for details
     # rotate log files weekly
     weekly
@@ -82,7 +82,7 @@ The logrotate utility is designed to simplify the administration of log files on
 
 **nginx示例日志切割配置文件:**
 
-```
+```sh
 /usr/local/nginx/logs/*.log {
     daily   
     dateext 
@@ -127,7 +127,7 @@ The logrotate utility is designed to simplify the administration of log files on
 
 ## 0x05 手动命令说明
 
-```
+```sh
     用法: logrotate [OPTION...] <configfile>
       -d, --debug               Don't do anything, just test (implies -v)
       -f, --force               Force file rotation
@@ -145,7 +145,7 @@ The logrotate utility is designed to simplify the administration of log files on
 
 要调用为/etc/lograte.d/下配置的所有日志调用logrotate：
 
-```
+```sh
     logrotate /etc/logrotate.conf
 ```
 
@@ -153,7 +153,7 @@ The logrotate utility is designed to simplify the administration of log files on
 
 要为某个特定的配置调用logrotate
 
-```
+```sh
     logrotate /etc/logrotate.d/log-file
 ```
 
@@ -161,7 +161,7 @@ The logrotate utility is designed to simplify the administration of log files on
 
 使用-d选项以预演方式运行logrotate。要进行验证，不用实际轮循任何日志文件，可以模拟演练日志轮循并显示其输出。
 
-```
+```sh
     logrotate /etc/logrotate.d/log-file
 ```
 
@@ -169,7 +169,7 @@ The logrotate utility is designed to simplify the administration of log files on
 
 即使轮循条件没有满足，我们也可以通过使用-f选项来强制logrotate轮循日志文件，-v参数提供了详细的输出。
 
-```
+```sh
     logrotate -vf /etc/logrotate.d/log-file
 ```
 
@@ -178,7 +178,7 @@ The logrotate utility is designed to simplify the administration of log files on
 
 **nginx.logrotate(error.log)**
 
-```
+```sh
     /usr/local/nginx/logs/error.log {
     dateext
     create
@@ -194,7 +194,7 @@ The logrotate utility is designed to simplify the administration of log files on
 
 **php.logrotate(php-fpm.log、php-fpm.log.slow)**
 
-```
+```sh
     /usr/local/php/var/log/php-fpm.log /usr/local/php/var/log/php-fpm.log.slow {
     dateext
     create
@@ -210,7 +210,7 @@ The logrotate utility is designed to simplify the administration of log files on
 
 **mysql.logrotate(slow-log、localhost.err)**
 
-```
+```sh
     /var/lib/mysql/slow-log /var/lib/mysql/localhost.err {
     dateext
     create

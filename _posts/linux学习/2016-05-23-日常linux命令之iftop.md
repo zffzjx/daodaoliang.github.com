@@ -24,7 +24,7 @@ date : 2016-05-23
 
 **编译安装iftop示例:**
 
-```
+```sh
     # centos
     yum install flex byacc  libpcap ncurses ncurses-devel libpcap-devel
 
@@ -32,7 +32,7 @@ date : 2016-05-23
     apt-get install flex byacc  libpcap0.8 libncurses5
 ```
 
-```
+```sh
     wget http://www.ex-parrot.com/pdw/iftop/download/iftop-0.17.tar.gz
 
     tar zxvf iftop-0.17.tar.gz
@@ -46,7 +46,7 @@ date : 2016-05-23
 
 **一键安装iftop 示例:**
 
-```
+```sh
     # 安装EPEL源
 
     # CentOS/RHEL 5 ：
@@ -59,7 +59,7 @@ date : 2016-05-23
     rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 ```
 
-```
+```sh
     # centos
     yum install iftop
 
@@ -71,7 +71,7 @@ date : 2016-05-23
 
 直接执行
 
-```
+```sh
     iftop -i eth1
 ```
 
@@ -79,7 +79,7 @@ date : 2016-05-23
 
 **界面说明:**
 
-```
+```sh
     # 顶部: 带宽显示， 可以通过按键 `L` 进行切换流量的刻度;
 
     # 中间部分: 外部链接列表，列出所有和本机有网络交互的链接信息, 其中右边部分的数字分别为 2s、10s、40s平均流量，=>代表发送数据，<= 代表接收数据;
@@ -113,7 +113,7 @@ date : 2016-05-23
 
 ### 0x04 iftop画面上一些操作命令
 
-```
+```text
     按h切换是否显示帮助;
 
     按n切换显示本机的IP或主机名;
