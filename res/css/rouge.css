@@ -206,19 +206,14 @@ figure[class="highlight"] > pre {
   text-align:left;
   background:black;
 }
+
 div[class="highlighter-rouge"] > pre[class="highlight"] > code{
-  background:black;
-  color:#f8f8f2;
+    background-color: #21221d;
 }
 div[class="highlighter-rouge"] > pre[class="highlight"] {
-  background:black;
-}
-.lineno {color: #f8f8f2 } /*Number of line*/
-
-.post-content pre {
     border-radius: 3px;
     border: 1px solid #111;
-    padding: 0.8em 1em;
+    padding: 0.8em 1em; 
     font: 14px/22px Consolas, Monaco, 'Andale Mono', monospace;
     border-radius: 10px;
     background-color: #21221d;
@@ -231,5 +226,7 @@ div[class="highlighter-rouge"] > pre[class="highlight"] {
     background-origin: content-box;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
+
 }
+.lineno {color: #f8f8f2 } /*Number of line*/
 
